@@ -1,0 +1,12 @@
+{
+  "name": "react-goo",
+  "version": "0.1.0-beta.1",
+  "repository": "luukdv/react-goo",
+  "bugs": "https://github.com/luukdv/react-goo/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Luuk de Vlieger",
+    "email": "info@luuk.site",
+    "url": "https://www.luuk.site"
+  }
+}
