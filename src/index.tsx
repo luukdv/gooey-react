@@ -1,6 +1,6 @@
 import React, { Fragment, ReactNode } from 'react'
 
-const shift = 80
+const shift = 64
 
 const Goo = ({
   children
@@ -25,7 +25,7 @@ const Goo = ({
               1 0 0 0 0
               0 1 0 0 0
               0 0 1 0 0
-              0 0 0 ${shift} -${shift / 2}
+              0 0 0 ${shift} ${shift / -2}
             `}
           />
         </filter>
