@@ -11,7 +11,11 @@
     "email": "info@luuk.site",
     "url": "https://www.luuk.site"
   },
-  "files": [],
+  "files": [
+    "dist-cjs",
+    "dist-esm",
+    "dist-types"
+  ],
   "keywords": [
     "animation",
     "animations",
@@ -26,13 +30,39 @@
     "svg-filters",
     "svg"
   ],
-  "main": "",
-  "module": "",
-  "types": "",
+  "main": "dist-cjs/index.js",
+  "module": "dist-esm/index.js",
+  "types": "dist-types/index.d.ts",
   "sideEffects": false,
-  "scripts": {},
+  "scripts": {
+    "build:cjs": "BUILD_TYPE=cjs babel src --extensions '.ts,.tsx' --out-dir dist-cjs",
+    "build:esm": "babel src --extensions '.ts,.tsx' --out-dir dist-esm",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "run-p build:cjs build:esm build:types",
+    "prebuild": "rimraf dist-*",
+    "prepublishOnly": "npm test && npm run build",
+    "test:watch": "jest --watch",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@testing-library/jest-dom": "^5.7.0",
+    "@testing-library/react": "^10.0.4",
+    "babel-plugin-jsx-remove-data-test-id": "^2.1.3",
+    "jest": "^25.5.4",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.2"
+  },
   "peerDependencies": {
     "react": "^16.8.0"
   }
