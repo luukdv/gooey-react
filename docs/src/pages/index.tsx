@@ -20,7 +20,8 @@ export default () => (
     <p className="max-w-2xl leading-loose text-cool-gray-600 text-lg">
       A tiny package for applying the gooey effect to React components. It's
       optimized to be as sharp/crisp as possible (existing implementations can
-      be a bit blurry).
+      be a bit blurry). It's easy to use, does as little as possible and has a
+      footprint of just ~1 KB.
     </p>
   </Wrap>
 )
