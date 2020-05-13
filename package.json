@@ -1,6 +1,8 @@
 {
   "name": "react-goo",
   "version": "0.1.0-beta.1",
+  "description": "The gooey effect for React",
+  "homepage": "",
   "repository": "luukdv/react-goo",
   "bugs": "https://github.com/luukdv/react-goo/issues",
   "license": "MIT",
