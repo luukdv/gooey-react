@@ -1,2 +1,10 @@
 @tailwind base;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Gooey';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/font.woff) format('woff');
+}
