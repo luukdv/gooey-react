@@ -8,7 +8,7 @@ export default (props: {
 }) => (
   <html lang="en" className="antialiased">
     <head>
-      <title>The gooey effect for React 🧽</title>
+      <title>The gooey effect for React</title>
       <meta charSet="utf-8" />
       <meta
         name="description"
@@ -20,7 +20,7 @@ export default (props: {
       />
       <meta property="og:image:secure_url" content="" />
       <meta property="og:image" content="" />
-      <meta property="og:title" content="The gooey effect for React 🧽" />
+      <meta property="og:title" content="The gooey effect for React" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="" />
       <meta
