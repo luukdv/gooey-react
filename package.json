@@ -10,5 +10,30 @@
     "name": "Luuk de Vlieger",
     "email": "info@luuk.site",
     "url": "https://www.luuk.site"
+  },
+  "files": [],
+  "keywords": [
+    "animation",
+    "animations",
+    "effect",
+    "goo",
+    "gooey",
+    "gooeyeffect",
+    "graphics",
+    "react",
+    "reactjs",
+    "svg-filter",
+    "svg-filters",
+    "svg"
+  ],
+  "main": "",
+  "module": "",
+  "types": "",
+  "sideEffects": false,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0"
   }
 }
