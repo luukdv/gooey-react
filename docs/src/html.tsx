@@ -41,7 +41,7 @@ export default (props: {
       />
       {props.headComponents}
     </head>
-    <body className="text-gray-800">
+    <body className="text-cool-gray-600 md:text-lg lg:text-xl xs:text-center">
       {props.preBodyComponents}
       <div
         key="body"

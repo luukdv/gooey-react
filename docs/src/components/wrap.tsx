@@ -7,6 +7,9 @@ export default ({ children }: { children: React.ReactNode }) => (
       px-5
       sm:px-10
       max-w-screen-lg
+      flex
+      flex-col
+      items-center
     `}
   >
     {children}
