@@ -14,18 +14,18 @@
 }
 
 @keyframes hero_one {
-  100% { transform: rotate(360deg) translate(6rem, 6rem) }
+  100% { transform: rotate(360deg) translate(4.5rem, 4.5rem) }
 }
 
 @keyframes hero_two {
-  100% { transform: rotate(360deg) translate(6rem, -6rem) }
+  100% { transform: rotate(360deg) translate(4.5rem, -4.5rem) }
 }
 
 @keyframes hero_three {
-  100% { transform: rotate(360deg) translate(-6rem, 6rem) }
+  100% { transform: rotate(360deg) translate(-4.5rem, 4.5rem) }
 }
 
 @keyframes hero_four {
-  100% { transform: rotate(360deg) translate(-6rem, -6rem) }
+  100% { transform: rotate(360deg) translate(-4.5rem, -4.5rem) }
 }
 
