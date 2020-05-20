@@ -14,6 +14,10 @@ const Goo = ({
   const blur = intensity === 'weak' ? 8 : intensity === 'strong' ? 16 : 12
   const alpha = blur * 6
   const shift = alpha / -2
+  const r = '1 0 0 0 0'
+  const g = '0 1 0 0 0'
+  const b = '0 0 1 0 0'
+  const a = `0 0 0 ${alpha} ${shift}`
 
   return (
     <Fragment>
@@ -25,17 +29,14 @@ const Goo = ({
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <filter id="gooey-filter">
+          <filter
+            id="gooey-filter"
+          >
             <feGaussianBlur
               stdDeviation={blur}
             />
             <feColorMatrix
-              values={`
-                1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 ${alpha} ${shift}
-              `}
+              values={`${r} ${g} ${b} ${a}`}
             />
           </filter>
         </defs>
