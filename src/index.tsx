@@ -30,6 +30,7 @@ const Goo = ({
       >
         <defs>
           <filter
+            colorInterpolationFilters="sRGB"
             id="gooey-filter"
           >
             <feGaussianBlur
