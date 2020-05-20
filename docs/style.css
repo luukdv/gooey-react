@@ -8,3 +8,24 @@
   font-display: swap;
   src: url(/font.woff) format('woff');
 }
+
+@keyframes rotate {
+  100% { transform: rotate(360deg) }
+}
+
+@keyframes hero_one {
+  100% { transform: rotate(360deg) translate(6rem, 6rem) }
+}
+
+@keyframes hero_two {
+  100% { transform: rotate(360deg) translate(6rem, -6rem) }
+}
+
+@keyframes hero_three {
+  100% { transform: rotate(360deg) translate(-6rem, 6rem) }
+}
+
+@keyframes hero_four {
+  100% { transform: rotate(360deg) translate(-6rem, -6rem) }
+}
+

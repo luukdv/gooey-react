@@ -5,16 +5,24 @@ import Wrap from '../components/wrap'
 export default () => (
   <Wrap>
     <Goo intensity="strong" className="flex w-full items-center justify-center relative" style={{
-        height: '50vh'
+        animation: 'rotate 8s linear infinite',
+        height: '50vh',
       }}>
+      <div className="w-16 h-16 rounded-full absolute" style={{
+        animation: 'hero_one 4s ease-in-out -4s infinite alternate',
+        background: 'linear-gradient(to top, darkviolet, darkturquoise)',
+      }} />
+      <div className="w-24 h-24 rounded-full absolute" style={{
+        animation: 'hero_three 12s ease-in-out -4s infinite alternate',
+        background: 'linear-gradient(to top, darkviolet, darkturquoise)',
+      }} />
       <div className="w-32 h-32 rounded-full absolute" style={{
-        background: 'linear-gradient(to top, darkviolet, darkturquoise)'
+        animation: 'hero_two 8s ease-in-out -4s infinite alternate',
+        background: 'linear-gradient(to top, darkviolet, darkturquoise)',
       }} />
-      <div className="w-16 h-16 ml-16 rounded-full absolute" style={{
-        background: 'linear-gradient(to top, darkviolet, darkturquoise)'
-      }} />
-      <div className="w-48 h-48 mt-32 rounded-full absolute" style={{
-        background: 'linear-gradient(to top, darkviolet, darkturquoise)'
+      <div className="w-40 h-40 rounded-full absolute" style={{
+        animation: 'hero_four 16s ease-in-out -4s infinite alternate',
+        background: 'linear-gradient(to top, darkviolet, darkturquoise)',
       }} />
     </Goo>
     <h1
