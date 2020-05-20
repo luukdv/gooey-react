@@ -20,7 +20,14 @@ const Goo = ({
   const a = `0 0 0 ${alpha} ${shift}`
 
   return (
-    <Fragment>
+    <div
+      className={className}
+      id="gooey"
+      style={{
+        ...style,
+        filter: 'url(#gooey-filter)',
+      }}
+    >
       <svg
         style={{
           pointerEvents: 'none',
@@ -32,6 +39,7 @@ const Goo = ({
           <filter
             colorInterpolationFilters="sRGB"
             id="gooey-filter"
+            x="-50%" width="200%" y="-50%" height="200%"
           >
             <feGaussianBlur
               stdDeviation={blur}
@@ -43,17 +51,8 @@ const Goo = ({
           </filter>
         </defs>
       </svg>
-      <div
-        className={className}
-        id="gooey"
-        style={{
-          ...style,
-          filter: 'url(#gooey-filter)',
-        }}
-      >
-        {children}
-      </div>
-    </Fragment>
+      {children}
+    </div>
   )
 }
 
