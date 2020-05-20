@@ -1,14 +1,19 @@
-import React, { Fragment, ReactNode } from 'react'
+import React, { CSSProperties, Fragment, ReactNode } from 'react'
 
 const Goo = ({
   children,
   intensity = 'medium',
+  className,
+  style,
 }: {
   children: ReactNode;
   intensity?: 'weak' | 'medium' | 'strong';
+  className?: string;
+  style?: CSSProperties;
 }) => {
   const blur = intensity === 'weak' ? 8 : intensity === 'strong' ? 16 : 12
-  const shift = blur * 6
+  const alpha = blur * 6
+  const shift = alpha / -2
 
   return (
     <Fragment>
@@ -20,7 +25,7 @@ const Goo = ({
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <filter id="gooey-react">
+          <filter id="gooey-filter">
             <feGaussianBlur
               stdDeviation={blur}
             />
@@ -29,15 +34,18 @@ const Goo = ({
                 1 0 0 0 0
                 0 1 0 0 0
                 0 0 1 0 0
-                0 0 0 ${shift} ${shift / -2}
+                0 0 0 ${alpha} ${shift}
               `}
             />
           </filter>
         </defs>
       </svg>
       <div
+        className={className}
+        id="gooey"
         style={{
-          filter: 'url(#gooey-react)',
+          ...style,
+          filter: 'url(#gooey-filter)',
         }}
       >
         {children}
