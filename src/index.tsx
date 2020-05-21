@@ -39,7 +39,6 @@ const Goo = ({
           <filter
             colorInterpolationFilters="sRGB"
             id="gooey-filter"
-            x="-50%" width="200%" y="-50%" height="200%"
           >
             <feGaussianBlur
               stdDeviation={blur}
