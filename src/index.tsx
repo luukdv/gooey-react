@@ -1,4 +1,4 @@
-import React, { CSSProperties, ReactNode } from 'react'
+import React from 'react'
 
 const Goo = ({
   children,
@@ -6,10 +6,10 @@ const Goo = ({
   className,
   style,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
   intensity?: 'weak' | 'medium' | 'strong';
   className?: string;
-  style?: CSSProperties;
+  style?: React.CSSProperties;
 }) => {
   const blur = intensity === 'weak' ? 8 : intensity === 'strong' ? 16 : 12
   const alpha = blur * 6
