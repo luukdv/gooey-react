@@ -48,6 +48,33 @@ export default () => (
       <code className="bg-orange-100 px-12 py-6 text-cool-gray-700 rounded-lg text-lg mb-16">
         npm install gooey-react
       </code>
+      <div className="w-full h-px bg-cool-gray-200 mb-16" />
+      <h2
+        className={`
+          leading-tight
+          text-2xl
+          md:text-3xl
+          lg:text-4xl
+          tracking-tighter
+          text-cool-gray-800
+          font-bold
+          font-heading
+          mb-8
+        `}
+      >
+        Usage
+      </h2>
+      <code className="text-left bg-orange-100 px-8 py-6 text-cool-gray-700 text-sm rounded-lg mb-12">
+        <span className="text-blue-700">import</span> Goo{' '}
+        <span className="text-blue-700">from '</span>
+        <span className="text-green-700">gooey-react</span>
+        <span className="text-blue-700">'</span>
+        <br />
+        <br />
+        <span className="text-yellow-700">{'<Goo>'}</span>
+        <span className="text-cool-gray-500"> … </span>
+        <span className="text-yellow-700">{'</Goo>'}</span>
+      </code>
     </Wrap>
     <Footer />
   </>
