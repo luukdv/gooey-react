@@ -22,12 +22,12 @@ export default () => (
         The gooey effect for React
       </h1>
       <p className="max-w-2xl mt-8 leading-loose text-lg mb-16">
-        The 'gooey effect' has been made popular by various (amazing) blogposts
-        over the years. This tiny package makes it easy to use within React, and
-        has improved the implementation as much as possible. It's optimized to
-        be as sharp/crisp as possible, since existing implementations can be a
-        bit blurry. Support for Safari (which can be notorious regarding SVG
-        filter animations) is added as well.
+        The 'gooey effect' has been made popular in various (amazing) blogposts
+        over the years, especially by Lucas Bebber. This tiny package makes it
+        easy to use within React, and has improved the implementation as much as
+        possible. It's optimized to be as sharp/crisp as possible, since
+        existing implementations can be a bit blurry. Support for Safari (which
+        can be notorious regarding SVG filter animations) is added as well.
       </p>
       <div className="w-full h-px bg-cool-gray-200 mb-16" />
       <h2
@@ -75,6 +75,20 @@ export default () => (
         <span className="text-cool-gray-500"> … </span>
         <span className="text-yellow-700">{'</Goo>'}</span>
       </code>
+      <p className="max-w-2xl leading-loose mb-16">
+        You can put regular HTML elements inside the component, but using an SVG
+        is recommended for better browser support.
+        <br />
+        <br />
+        <em className="text-sm">
+          This library focuses on the graphical part of the effect, which means
+          not all HTML tags will be visible within the component. There is a
+          popular solution which applies a composite or blend to effectively
+          duplicate all original elements on top of the goo, which greatly
+          diminishes the effect. If you want to show elements on top, the best
+          solution is to simply move them outside of the component.
+        </em>
+      </p>
     </Wrap>
     <Footer />
   </>
