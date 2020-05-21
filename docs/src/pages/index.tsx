@@ -64,7 +64,7 @@ export default () => (
       >
         Usage
       </h2>
-      <code className="text-left bg-orange-100 px-8 py-6 text-cool-gray-700 text-sm rounded-lg mb-12">
+      <code className="text-left bg-orange-100 px-8 py-6 text-cool-gray-700 text-sm rounded-lg mb-8">
         <span className="text-blue-700">import</span> Goo{' '}
         <span className="text-blue-700">from '</span>
         <span className="text-green-700">gooey-react</span>
@@ -75,20 +75,45 @@ export default () => (
         <span className="text-cool-gray-500"> … </span>
         <span className="text-yellow-700">{'</Goo>'}</span>
       </code>
-      <p className="max-w-2xl leading-loose mb-16">
+      <p className="max-w-2xl leading-loose mb-8">
         You can put regular HTML elements inside the component, but using an SVG
         is recommended for better browser support.
-        <br />
-        <br />
-        <em className="text-sm">
-          This library focuses on the graphical part of the effect, which means
-          not all HTML tags will be visible within the component. There is a
-          popular solution which applies a composite or blend to effectively
-          duplicate all original elements on top of the goo, which greatly
-          diminishes the effect. If you want to show elements on top, the best
-          solution is to simply move them outside of the component.
-        </em>
       </p>
+      <em className="text-sm max-w-2xl leading-loose mb-16">
+        This library focuses on the graphical part of the effect, which means
+        not all HTML tags will be visible within the component. There is a
+        popular solution which applies a composite or blend to effectively
+        duplicate all original elements on top of the goo, which greatly
+        diminishes the effect. If you want to show elements on top, the best
+        solution is to simply move them outside of the component.
+      </em>
+      <div className="w-full h-px bg-cool-gray-200 mb-16" />
+      <h2
+        className={`
+          leading-tight
+          text-2xl
+          md:text-3xl
+          lg:text-4xl
+          tracking-tighter
+          text-cool-gray-800
+          font-bold
+          font-heading
+          mb-8
+        `}
+      >
+        Properties
+      </h2>
+      <p className="max-w-2xl leading-loose mb-8">
+        Asides from the possibility to add a `className` and `style` prop, the
+        only available property is `intensity`. You can use this to control how
+        strong the gooey effect is applied. It has three possible values:
+        'weak', 'medium' (which is the default) and 'strong'.
+      </p>
+      <code className="text-left bg-orange-100 px-8 py-6 text-cool-gray-700 text-sm rounded-lg">
+        <span className="text-yellow-700">{'<Goo intensity="weak">'}</span>
+        <span className="text-cool-gray-500"> … </span>
+        <span className="text-yellow-700">{'</Goo>'}</span>
+      </code>
     </Wrap>
     <Footer />
   </>
