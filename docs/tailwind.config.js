@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Gooey', ...tempFont], // https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap
+        heading: ['Gooey', ...tempFont],
         temp: tempFont,
       },
     },
