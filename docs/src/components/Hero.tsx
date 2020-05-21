@@ -4,11 +4,11 @@ import Goo from '../../../src'
 export default () => (
   <Goo
     intensity="strong"
-    className="flex w-full items-center justify-center relative mb-16"
+    className="flex w-full items-center justify-center relative"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      style={{ width: '100%', height: '20rem' }}
+      style={{ width: '100%', height: '24rem' }}
     >
       <defs>
         <linearGradient id="gradient">
