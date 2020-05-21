@@ -1,5 +1,5 @@
 import React from 'react'
-import Goo from '../../../src'
+import Goo from 'gooey-react'
 
 export default () => (
   <Goo
