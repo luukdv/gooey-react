@@ -42,7 +42,6 @@ const Goo = ({
           >
             <feGaussianBlur
               stdDeviation={blur}
-              result="blur"
             />
             <feColorMatrix
               values={`${r} ${g} ${b} ${a}`}
