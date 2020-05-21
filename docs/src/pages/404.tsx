@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrap from '../components/wrap'
+import Wrap from '../components/Wrap'
 
 export default () => (
   <Wrap>
