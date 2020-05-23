@@ -10,6 +10,12 @@ module.exports = {
         heading: ['Gooey', ...tempFont],
         temp: tempFont,
       },
+      inset: {
+        '1/2': '50%',
+      },
+      spacing: {
+        '96': '24rem',
+      },
     },
     colors,
     screens: {
