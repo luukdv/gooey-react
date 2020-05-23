@@ -4,11 +4,12 @@ import Goo from 'gooey-react'
 export default () => (
   <Goo
     intensity="strong"
-    className="flex w-full items-center justify-center relative"
+    className="flex w-full items-center justify-center relative transform -translate-x-1/2"
+    style={{ width: '24rem', height: '24rem', left: '50%' }}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      style={{ width: '100%', height: '24rem' }}
+      style={{ width: '100%', height: '100%' }}
     >
       <defs>
         <linearGradient id="gradient">

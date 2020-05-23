@@ -10,8 +10,10 @@ import Installation from '../components/Installation'
 
 export default () => (
   <>
-    <Wrap>
+    <div className="overflow-hidden">
       <Hero />
+    </div>
+    <Wrap>
       <H1>The gooey effect for React</H1>
       <P large moreMargin>
         The 'gooey effect' has been made popular by various (amazing) blogposts
