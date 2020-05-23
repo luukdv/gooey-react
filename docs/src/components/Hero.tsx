@@ -27,50 +27,40 @@ export default () => (
         </linearGradient>
       </defs>
       <g
-        style={{
-          animation: 'rotate 8s linear infinite',
-          transformOrigin: '50%',
-        }}
+        className="origin-center"
+        style={{ animation: 'rotate 8s linear infinite' }}
       >
         <circle
           r="24"
           fill="url(#gradient)"
           cy="50%"
           cx="50%"
-          style={{
-            animation: 'hero_one 4s ease-in-out -4s infinite alternate',
-            transformOrigin: '50%',
-          }}
+          className="origin-center"
+          style={{ animation: 'hero_one 4s ease-in-out -4s infinite alternate' }}
         />
         <circle
           r="36"
           fill="url(#gradient)"
           cy="50%"
           cx="50%"
-          style={{
-            animation: 'hero_three 12s ease-in-out -4s infinite alternate',
-            transformOrigin: '50%',
-          }}
+          className="origin-center"
+          style={{ animation: 'hero_three 12s ease-in-out -4s infinite alternate' }}
         />
         <circle
           r="48"
           fill="url(#gradient)"
           cy="50%"
           cx="50%"
-          style={{
-            animation: 'hero_two 8s ease-in-out -4s infinite alternate',
-            transformOrigin: '50%',
-          }}
+          className="origin-center"
+          style={{ animation: 'hero_two 8s ease-in-out -4s infinite alternate' }}
         />
         <circle
           r="60"
           fill="url(#gradient)"
           cy="50%"
           cx="50%"
-          style={{
-            animation: 'hero_four 16s ease-in-out -4s infinite alternate',
-            transformOrigin: '50%',
-          }}
+          className="origin-center"
+          style={{ animation: 'hero_four 16s ease-in-out -4s infinite alternate' }}
         />
       </g>
     </svg>
