@@ -1,14 +1,11 @@
 const colors = require('@tailwindcss/ui/colors')
 const theme = require('tailwindcss/defaultTheme')
 
-const tempFont = theme.fontFamily.sans.slice(4)
-
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Gooey', ...tempFont],
-        temp: tempFont,
+        heading: ['Gooey', ...theme.fontFamily.sans],
       },
       inset: {
         '1/2': '50%',
