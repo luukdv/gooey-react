@@ -16,10 +16,7 @@ export default () => (
       -translate-x-1/2
     "
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-full"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient">
           <stop offset="0%" style={{ stopColor: 'darkviolet' }} />
@@ -30,37 +27,53 @@ export default () => (
         className="origin-center"
         style={{ animation: 'rotate 8s linear infinite' }}
       >
-        <circle
-          r="24"
-          fill="url(#gradient)"
-          cy="50%"
-          cx="50%"
+        <rect
+          x={`${50 - 12.5 / 2}%`}
+          y={`${50 - 12.5 / 2}%`}
+          rx={`${12.5 * 0.45}%`}
+          width={`${12.5}%`}
+          height={`${12.5}%`}
           className="origin-center"
-          style={{ animation: 'hero_one 4s ease-in-out -4s infinite alternate' }}
+          fill="url(#gradient)"
+          style={{
+            animation: 'hero_one 4s ease-in-out -4s infinite alternate',
+          }}
         />
-        <circle
-          r="36"
-          fill="url(#gradient)"
-          cy="50%"
-          cx="50%"
+        <rect
+          x={`${50 - 18.75 / 2}%`}
+          y={`${50 - 18.75 / 2}%`}
+          rx={`${18.75 * 0.45}%`}
+          width={`${18.75}%`}
+          height={`${18.75}%`}
           className="origin-center"
-          style={{ animation: 'hero_three 12s ease-in-out -4s infinite alternate' }}
+          fill="url(#gradient)"
+          style={{
+            animation: 'hero_three 12s ease-in-out -4s infinite alternate',
+          }}
         />
-        <circle
-          r="48"
-          fill="url(#gradient)"
-          cy="50%"
-          cx="50%"
+        <rect
+          x={`${50 - 25 / 2}%`}
+          y={`${50 - 25 / 2}%`}
+          rx={`${25 * 0.45}%`}
+          width={`${25}%`}
+          height={`${25}%`}
           className="origin-center"
-          style={{ animation: 'hero_two 8s ease-in-out -4s infinite alternate' }}
+          fill="url(#gradient)"
+          style={{
+            animation: 'hero_two 8s ease-in-out -4s infinite alternate',
+          }}
         />
-        <circle
-          r="60"
-          fill="url(#gradient)"
-          cy="50%"
-          cx="50%"
+        <rect
+          x={`${50 - 31.25 / 2}%`}
+          y={`${50 - 31.25 / 2}%`}
+          rx={`${31.25 * 0.45}%`}
+          width={`${31.25}%`}
+          height={`${31.25}%`}
           className="origin-center"
-          style={{ animation: 'hero_four 16s ease-in-out -4s infinite alternate' }}
+          fill="url(#gradient)"
+          style={{
+            animation: 'hero_four 16s ease-in-out -4s infinite alternate',
+          }}
         />
       </g>
     </svg>
