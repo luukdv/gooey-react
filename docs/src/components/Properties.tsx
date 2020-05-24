@@ -38,7 +38,7 @@ export default () => (
                 fill="salmon"
                 className="origin-center"
                 style={{
-                  animation: 'drop 2s ease-in -1s infinite alternate',
+                  animation: 'drop 1.5s ease-in -0.75s infinite alternate',
                 }}
               />
               <circle
@@ -82,7 +82,7 @@ export default () => (
                 fill="salmon"
                 className="origin-center"
                 style={{
-                  animation: 'drop 2s ease-in -1s infinite alternate',
+                  animation: 'drop 1.5s ease-in -0.75s infinite alternate',
                 }}
               />
               <circle
