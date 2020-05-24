@@ -5,7 +5,6 @@ import Code from './Code'
 
 export default () => (
   <>
-    <div className="w-full h-px bg-cool-gray-200 mb-16" />
     <H2>Usage</H2>
     <Code>
       <span className="text-blue-700">import</span> Goo{' '}

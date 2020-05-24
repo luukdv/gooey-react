@@ -7,7 +7,6 @@ import Tag from './Tag'
 
 export default () => (
   <>
-    <div className="w-full h-px bg-cool-gray-200 mb-16" />
     <H2>Properties</H2>
     <P>
       You can use <Tag>intensity</Tag> to control how strong the gooey effect is

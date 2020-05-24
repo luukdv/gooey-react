@@ -3,6 +3,7 @@ import Wrap from '../components/Wrap'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Properties from '../components/Properties'
+import Divider from '../components/Divider'
 import H1 from '../components/H1'
 import P from '../components/P'
 import Usage from '../components/Usage'
@@ -13,7 +14,7 @@ export default () => (
   <Hero />
   <Wrap>
     <div className="flex flex-col md:flex-row w-full">
-      <div className="w-1/4 lg:w-1/5 flex-none mr-8 lg:mr-16 order-last md:order-first">
+      <div className="mt-8 md:mt-0 w-full md:w-1/4 lg:w-1/5 flex-none mr-8 lg:mr-16 order-last md:order-first">
         <div className="bg-gray-200 rounded-md">
           Sidebar
         </div>
@@ -28,8 +29,11 @@ export default () => (
           bit blurry. Safari support (which can be notorious, and is usually
           missing) has been added as well.
         </P>
+        <Divider />
         <Installation />
+        <Divider />
         <Usage />
+        <Divider />
         <Properties />
       </div>
     </div>
