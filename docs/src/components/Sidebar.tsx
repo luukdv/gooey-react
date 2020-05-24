@@ -17,7 +17,7 @@ export default () => (
       md:order-first
     "
   >
-    <div className="bg-gray-100 rounded-md md:sticky md:top-8 md:mt-2 p-6">
+    <div className="bg-cool-gray-100 rounded-md md:sticky md:top-8 md:mt-2 p-6">
       <A href="/" title="Home" upper />
       <ul className="ml-4">
         <li>

@@ -3,7 +3,7 @@ import React from 'react'
 export default ({ children }: { children: React.ReactNode }) => (
   <span
     className={`
-      bg-gray-100
+      bg-cool-gray-100
       font-medium
       rounded-md
       px-2
