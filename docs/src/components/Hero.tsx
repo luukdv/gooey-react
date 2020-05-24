@@ -7,8 +7,6 @@ export default () => (
     className="
       left-1/2
       flex
-      w-96
-      h-96
       items-center
       justify-center
       relative
@@ -16,7 +14,7 @@ export default () => (
       -translate-x-1/2
     "
   >
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-96 h-96">
       <defs>
         <linearGradient id="gradient">
           <stop offset="0%" style={{ stopColor: 'darkviolet' }} />
