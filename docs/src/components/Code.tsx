@@ -3,9 +3,11 @@ import React from 'react'
 export default ({
   children,
   large,
+  moreMargin,
 }: {
   children: React.ReactNode
   large?: boolean
+  moreMargin?: boolean
 }) => (
   <code
     className={`
@@ -19,7 +21,7 @@ export default ({
       text-sm
       ${large ? 'text-center' : 'text-left'}
       ${large ? 'xs:text-base lg:text-lg' : ''}
-      ${large ? 'mb-8 md:mb-12 lg:mb-16' : 'mb-6 md:mb-8'}
+      ${moreMargin ? 'mb-8 md:mb-12' : 'mb-6 md:mb-8'}
     `}
   >
     {children}
