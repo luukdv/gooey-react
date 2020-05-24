@@ -5,6 +5,8 @@ import Code from './Code'
 export default () => (
   <>
     <H2>Installation (1 kb)</H2>
-    <Code large>npm install gooey-react</Code>
+    <Code large moreMargin>
+      npm install gooey-react
+    </Code>
   </>
 )

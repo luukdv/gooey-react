@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default ({ children, noMargin }: { children: React.ReactNode; noMargin?: boolean }) => (
+export default ({
+  children,
+  noMargin,
+}: {
+  children: React.ReactNode
+  noMargin?: boolean
+}) => (
   <div
     className={`
       flex-grow
