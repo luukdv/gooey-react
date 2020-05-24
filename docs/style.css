@@ -32,3 +32,8 @@
 @keyframes drop {
   100% { transform: translateY(43.75%) }
 }
+
+.main > :last-child {
+  @apply mb-0;
+}
+

@@ -10,7 +10,7 @@ import Layout from '../components/Layout'
 export default () => (
   <>
     <Hero />
-    <Layout noMargin>
+    <Layout home>
       <H1>The gooey effect for React</H1>
       <P large moreMargin>
         The 'gooey effect' has been made popular by various (amazing) blogposts
@@ -24,7 +24,6 @@ export default () => (
       <Installation />
       <Divider />
       <Usage />
-      <Divider />
     </Layout>
   </>
 )
