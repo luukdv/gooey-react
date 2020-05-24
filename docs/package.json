@@ -6,7 +6,7 @@
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "gatsby-plugin-netlify": "^2.3.3",
     "gatsby-plugin-postcss": "^2.3.2",
-    "gooey-react": "^0.1.1",
+    "gooey-react": "^0.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tailwindcss": "^1.4.6"
