@@ -11,13 +11,15 @@ export default ({
     className={`
       block
       bg-orange-100
-      ${large ? 'px-12' : 'px-8'}
-      py-6
+      ${large ? 'px-8 xs:px-12' : 'px-6 xs:px-8'}
+      py-5 xs:py-6
       text-cool-gray-700
       rounded-lg
+      text-sm
       ${large ? 'text-center' : 'text-left'}
-      ${large ? 'text-lg' : 'text-sm'}
-      ${large ? 'mb-16' : 'mb-8'}
+      ${large ? 'xs:text-base lg:text-lg' : ''}
+      mb-8
+      ${large ? 'mb-12 lg:mb-16' : ''}
     `}
   >
     {children}

@@ -14,7 +14,8 @@ export default ({
       max-w-2xl
       leading-loose
       ${large ? 'lg:text-lg' : ''}
-      ${moreMargin ? 'mb-16' : 'mb-8'}
+      mb-8
+      ${moreMargin ? 'md:mb-12 lg:mb-16' : ''}
     `}
   >
     {children}
