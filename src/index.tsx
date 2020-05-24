@@ -31,7 +31,7 @@ const Goo = ({
         <defs>
           <filter
             colorInterpolationFilters="sRGB"
-            id="gooey-filter"
+            id="gooey-react"
           >
             <feGaussianBlur
               stdDeviation={blur}
@@ -46,7 +46,7 @@ const Goo = ({
         className={className}
         style={{
           ...style,
-          filter: 'url(#gooey-filter)',
+          filter: 'url(#gooey-react)',
         }}
       >
         {children}
