@@ -4,6 +4,7 @@ export default ({ children, noMargin }: { children: React.ReactNode; noMargin?: 
   <div
     className={`
       flex-grow
+      w-full
       mx-auto
       px-5
       sm:px-10
