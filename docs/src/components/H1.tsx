@@ -7,7 +7,7 @@ export default ({ children }: { children: React.ReactNode }) => (
       text-4xl
       mb-8
       md:text-5xl
-      lg:text-6xl
+      xl:text-6xl
       tracking-tighter
       text-cool-gray-800
       font-bold

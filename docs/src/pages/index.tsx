@@ -13,12 +13,12 @@ export default () => (
   <Hero />
   <Wrap>
     <div className="flex flex-col md:flex-row w-full">
-      <div className="order-last md:order-first">
-        <div className="w-32 bg-gray-200 rounded-md mr-16">
+      <div className="w-1/4 lg:w-1/5 flex-none mr-8 lg:mr-16 order-last md:order-first">
+        <div className="bg-gray-200 rounded-md">
           Sidebar
         </div>
       </div>
-      <div className="flex-grow flex flex-col items-center">
+      <div className="flex-grow flex flex-col items-start">
         <H1>The gooey effect for React</H1>
         <P large moreMargin>
           The 'gooey effect' has been made popular by various (amazing) blogposts

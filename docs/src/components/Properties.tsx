@@ -14,8 +14,8 @@ export default () => (
       applied. It has three possible values: <Tag>weak</Tag>, <Tag>medium</Tag>{' '}
       (which is the default) and <Tag>strong</Tag>.
     </P>
-    <div className="md:grid md:grid-cols-2 md:gap-8">
-      <div className="flex flex-col items-center">
+    <div className="md:grid md:grid-cols-2 md:gap-4">
+      <div className="flex flex-col items-start">
         <Code>
           <span className="text-blue-700">{'<'}</span>
           <span className="text-yellow-700">{'Goo '}</span>
@@ -59,7 +59,7 @@ export default () => (
           </Goo>
         </div>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-start">
         <Code>
           <span className="text-blue-700">{'<'}</span>
           <span className="text-yellow-700">{'Goo '}</span>
