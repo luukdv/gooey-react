@@ -30,7 +30,7 @@
 }
 
 @keyframes drop {
-  100% { transform: translateY(43.75%) }
+  100% { transform: translateY(45%) }
 }
 
 .main > :last-child {

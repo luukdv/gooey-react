@@ -46,7 +46,7 @@ const Example = ({ intensity }: { intensity: 'weak' | 'strong' }) => (
             cx="50%"
             cy="30%"
             r="30"
-            fill="salmon"
+            fill="lightcoral"
             className="origin-center"
             style={{
               animation: 'drop 1.5s ease-in -0.75s infinite alternate',
