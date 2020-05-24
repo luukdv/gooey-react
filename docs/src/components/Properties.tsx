@@ -14,7 +14,7 @@ export default () => (
       applied. It has three possible values: <Tag>weak</Tag>, <Tag>medium</Tag>{' '}
       (which is the default) and <Tag>strong</Tag>.
     </P>
-    <div className="md:grid md:grid-cols-2 md:gap-8 w-full">
+    <div className="md:grid md:grid-cols-2 md:gap-8">
       <div className="flex flex-col items-center">
         <Code>
           <span className="text-blue-700">{'<'}</span>
@@ -28,9 +28,9 @@ export default () => (
           <span className="text-yellow-700">{'Goo'}</span>
           <span className="text-blue-700">{'>'}</span>
         </Code>
-        <div className="border-2 border-cool-gray-200 w-full">
+        <div className="border-2 border-cool-gray-200">
           <Goo intensity="weak" id="prop-weak">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-64">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-64 h-64">
               <circle
                 cx="50%"
                 cy="31.25%"
@@ -42,7 +42,7 @@ export default () => (
                 }}
               />
               <circle
-                cx="62.5%"
+                cx="71.875%"
                 cy="50%"
                 r="24"
                 fill="salmon"
@@ -72,9 +72,9 @@ export default () => (
           <span className="text-yellow-700">{'Goo'}</span>
           <span className="text-blue-700">{'>'}</span>
         </Code>
-        <div className="border-2 border-cool-gray-200 w-full">
+        <div className="border-2 border-cool-gray-200">
           <Goo intensity="strong" id="prop-strong">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-64">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-64 h-64">
               <circle
                 cx="50%"
                 cy="31.25%"
@@ -86,7 +86,7 @@ export default () => (
                 }}
               />
               <circle
-                cx="62.5%"
+                cx="71.875%"
                 cy="50%"
                 r="24"
                 fill="salmon"
