@@ -14,19 +14,19 @@
 }
 
 @keyframes hero_one {
-  100% { transform: rotate(360deg) translate(18.75%, 18.75%) }
+  100% { transform: rotate(360deg) translate(17.5%, 17.5%) }
 }
 
 @keyframes hero_two {
-  100% { transform: rotate(360deg) translate(18.75%, -18.75%) }
+  100% { transform: rotate(360deg) translate(17.5%, -17.5%) }
 }
 
 @keyframes hero_three {
-  100% { transform: rotate(360deg) translate(-18.75%, 18.75%) }
+  100% { transform: rotate(360deg) translate(-17.5%, 17.5%) }
 }
 
 @keyframes hero_four {
-  100% { transform: rotate(360deg) translate(-18.75%, -18.75%) }
+  100% { transform: rotate(360deg) translate(-17.5%, -17.5%) }
 }
 
 @keyframes drop {

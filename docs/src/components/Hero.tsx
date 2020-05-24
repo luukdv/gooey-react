@@ -15,11 +15,11 @@ export default () => (
         style={{ animation: 'rotate 8s linear infinite' }}
       >
         <rect
-          x={`${50 - 15.625 / 2}%`}
-          y={`${50 - 15.625 / 2}%`}
-          rx={`${15.625 * 0.45}%`}
-          width={`${15.625}%`}
-          height={`${15.625}%`}
+          x={`${50 - 17.5 / 2}%`}
+          y={`${50 - 17.5 / 2}%`}
+          rx={`${17.5 * 0.45}%`}
+          width={`${17.5}%`}
+          height={`${17.5}%`}
           className="origin-center"
           fill="url(#gradient)"
           style={{
@@ -27,11 +27,11 @@ export default () => (
           }}
         />
         <rect
-          x={`${50 - 18.75 / 2}%`}
-          y={`${50 - 18.75 / 2}%`}
-          rx={`${18.75 * 0.45}%`}
-          width={`${18.75}%`}
-          height={`${18.75}%`}
+          x={`${50 - 20 / 2}%`}
+          y={`${50 - 20 / 2}%`}
+          rx={`${20 * 0.45}%`}
+          width={`${20}%`}
+          height={`${20}%`}
           className="origin-center"
           fill="url(#gradient)"
           style={{
@@ -51,11 +51,11 @@ export default () => (
           }}
         />
         <rect
-          x={`${50 - 31.25 / 2}%`}
-          y={`${50 - 31.25 / 2}%`}
-          rx={`${31.25 * 0.45}%`}
-          width={`${31.25}%`}
-          height={`${31.25}%`}
+          x={`${50 - 30 / 2}%`}
+          y={`${50 - 30 / 2}%`}
+          rx={`${30 * 0.45}%`}
+          width={`${30}%`}
+          height={`${30}%`}
           className="origin-center"
           fill="url(#gradient)"
           style={{
