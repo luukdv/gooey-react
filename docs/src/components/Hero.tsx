@@ -23,7 +23,7 @@ export default () => (
           className="origin-center"
           fill="url(#gradient)"
           style={{
-            animation: 'hero_one 4s ease-in-out -2s infinite alternate',
+            animation: 'hero_one 4s ease-in-out -5s infinite alternate',
           }}
         />
         <rect
@@ -35,7 +35,7 @@ export default () => (
           className="origin-center"
           fill="url(#gradient)"
           style={{
-            animation: 'hero_three 12s ease-in-out -2s infinite alternate',
+            animation: 'hero_three 12s ease-in-out -5s infinite alternate',
           }}
         />
         <rect
@@ -47,7 +47,7 @@ export default () => (
           className="origin-center"
           fill="url(#gradient)"
           style={{
-            animation: 'hero_two 8s ease-in-out -2s infinite alternate',
+            animation: 'hero_two 8s ease-in-out -5s infinite alternate',
           }}
         />
         <rect
@@ -59,7 +59,7 @@ export default () => (
           className="origin-center"
           fill="url(#gradient)"
           style={{
-            animation: 'hero_four 16s ease-in-out -2s infinite alternate',
+            animation: 'hero_four 16s ease-in-out -5s infinite alternate',
           }}
         />
       </g>
