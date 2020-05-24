@@ -2,6 +2,7 @@ import React from 'react'
 import H2 from './H2'
 import P from './P'
 import Code from './Code'
+import Divider from './Divider'
 
 export default () => (
   <>
@@ -26,14 +27,13 @@ export default () => (
       is recommended for better browser support.
     </P>
     <P moreMargin>
-      <em className="text-sm">
-        This library focuses on the graphical part of the effect, which means
-        not all HTML tags will be visible within the component. There is a
-        popular solution which applies a composite or blend to effectively
-        duplicate all original elements on top of the goo, which greatly
-        diminishes the effect. If you want to show elements on top, the best
-        solution is to simply move them outside of the component.
-      </em>
+      This library focuses on the graphical part of the effect, which means
+      not all HTML tags will be visible within the component. There is a
+      popular solution which applies a composite or blend to effectively
+      duplicate all original elements on top of the goo, which greatly
+      diminishes the effect. If you want to show elements on top, the best
+      solution is to simply move them outside of the component.
     </P>
+    <Divider />
   </>
 )

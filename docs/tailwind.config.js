@@ -22,5 +22,7 @@ module.exports = {
     },
   },
   // https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-  variants: {},
+  variants: {
+    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
 }

@@ -4,6 +4,7 @@ import Divider from '../components/Divider'
 import H1 from '../components/H1'
 import P from '../components/P'
 import Usage from '../components/Usage'
+import Icky from '../components/Icky'
 import Installation from '../components/Installation'
 import Layout from '../components/Layout'
 
@@ -24,6 +25,7 @@ export default () => (
       <Installation />
       <Divider />
       <Usage />
+      <Icky />
     </Layout>
   </>
 )
