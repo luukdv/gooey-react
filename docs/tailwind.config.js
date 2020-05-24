@@ -9,6 +9,7 @@ module.exports = {
       },
       inset: {
         '1/2': '50%',
+        '8': '2rem',
       },
       spacing: {
         '80': '20rem',
