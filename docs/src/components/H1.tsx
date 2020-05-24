@@ -5,7 +5,8 @@ export default ({ children }: { children: React.ReactNode }) => (
     className={`
       leading-tight
       text-4xl
-      mb-8
+      mb-6
+      md:mb-8
       md:text-5xl
       xl:text-6xl
       tracking-tighter

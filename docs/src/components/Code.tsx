@@ -18,8 +18,7 @@ export default ({
       text-sm
       ${large ? 'text-center' : 'text-left'}
       ${large ? 'xs:text-base lg:text-lg' : ''}
-      mb-8
-      ${large ? 'mb-12 lg:mb-16' : ''}
+      ${large ? 'mb-8 md:mb-12 lg:mb-16' : 'mb-6 md:mb-8'}
     `}
   >
     {children}
