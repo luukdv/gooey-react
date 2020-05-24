@@ -10,6 +10,7 @@ export default ({
   <code
     className={`
       block
+      shadow-inner
       bg-orange-100
       ${large ? 'px-8 xs:px-12' : 'px-6 xs:px-8'}
       py-5 xs:py-6
