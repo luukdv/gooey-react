@@ -18,11 +18,21 @@ export default (props: {
         property="og:description"
         content="A tiny package for applying the gooey effect to React components."
       />
-      <meta property="og:image:secure_url" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:image:height" content="630" />
+      <meta
+        property="og:image:secure_url"
+        content="https://gooey-react.netlify.app/gooey-react.png"
+      />
+      <meta property="og:image:width" content="1200" />
+      <meta
+        property="og:image"
+        content="https://gooey-react.netlify.app/gooey-react.png"
+      />
       <meta property="og:title" content="The gooey effect for React" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="" />
+      <meta property="og:url" content="https://gooey-react.netlify.app/" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
