@@ -30,8 +30,6 @@ export default (props: {
       />
       <meta property="og:title" content="The gooey effect for React" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://gooey-react.netlify.app/" />
-      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="viewport"
