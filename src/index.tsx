@@ -20,14 +20,7 @@ const Goo = ({
   const a = `0 0 0 ${alpha} ${shift}`
 
   return (
-    <div
-      className={className}
-      id="gooey"
-      style={{
-        ...style,
-        filter: 'url(#gooey-filter)',
-      }}
-    >
+    <>
       <svg
         style={{
           pointerEvents: 'none',
@@ -49,8 +42,16 @@ const Goo = ({
           </filter>
         </defs>
       </svg>
-      {children}
-    </div>
+      <div
+        className={className}
+        style={{
+          ...style,
+          filter: 'url(#gooey-filter)',
+        }}
+      >
+        {children}
+      </div>
+    </>
   )
 }
 
