@@ -2,13 +2,15 @@ import React from 'react'
 
 const Goo = ({
   children,
-  intensity = 'medium',
   className,
+  intensity = 'medium',
+  id = 'gooey-react',
   style,
 }: {
   children: React.ReactNode;
-  intensity?: 'weak' | 'medium' | 'strong';
   className?: string;
+  intensity?: 'weak' | 'medium' | 'strong';
+  id?: string;
   style?: React.CSSProperties;
 }) => {
   const blur = intensity === 'weak' ? 8 : intensity === 'strong' ? 16 : 12
@@ -31,8 +33,8 @@ const Goo = ({
         <defs>
           <filter
             colorInterpolationFilters="sRGB"
-            id="gooey-react"
             data-testid="filter"
+            id={id}
           >
             <feGaussianBlur
               stdDeviation={blur}
@@ -45,11 +47,11 @@ const Goo = ({
       </svg>
       <div
         className={className}
+        data-testid="element"
         style={{
           ...style,
-          filter: 'url(#gooey-react)',
+          filter: `url(#${id})`,
         }}
-        data-testid="element"
       >
         {children}
       </div>
