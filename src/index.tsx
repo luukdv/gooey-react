@@ -32,6 +32,7 @@ const Goo = ({
           <filter
             colorInterpolationFilters="sRGB"
             id="gooey-react"
+            data-testid="filter"
           >
             <feGaussianBlur
               stdDeviation={blur}
@@ -48,6 +49,7 @@ const Goo = ({
           ...style,
           filter: 'url(#gooey-react)',
         }}
+        data-testid="element"
       >
         {children}
       </div>
