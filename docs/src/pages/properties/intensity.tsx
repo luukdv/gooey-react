@@ -10,7 +10,7 @@ import Layout from '../../components/Layout'
 export default () => (
   <>
     <Layout>
-      <H1>Intensity</H1>
+      <H1>intensity</H1>
       <P moreMargin large>
         You can use <Tag>intensity</Tag> to control how strong the gooey effect
         is applied. It has three possible values: <Tag>weak</Tag>,{' '}

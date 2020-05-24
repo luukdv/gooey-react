@@ -30,9 +30,13 @@ export default () => (
       <A href="/properties/intensity/" title="Properties" upper margin />
       <ul className="ml-4">
         <li>
-          <A href="properties/intensity/" title="Intensity" />
+          <A href="/properties/intensity/" title="intensity" />
+          <A href="/properties/id/" title="id" />
+          <A href="/properties/classname-style/" title="className" />
+          <A href="/properties/classname-style/" title="style" />
         </li>
       </ul>
+      <A href="/support/" title="Support" upper margin />
     </div>
   </div>
 )
@@ -50,8 +54,8 @@ const A = ({
 }) => (
   <Link
     to={href}
-    className={`hover:text-purple-600 block py-1 ${margin ? 'mt-4' : ''} ${
-      upper ? 'text-sm font-bold uppercase' : ''
+    className={`hover:text-purple-600 block py-1 ${margin ? 'mt-6' : ''} ${
+      upper ? 'text-sm font-bold uppercase mb-1' : ''
     }`}
   >
     {title}
