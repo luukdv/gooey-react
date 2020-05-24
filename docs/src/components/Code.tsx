@@ -9,6 +9,7 @@ export default ({
 }) => (
   <code
     className={`
+      block
       bg-orange-100
       ${large ? 'px-12' : 'px-8'}
       py-6
