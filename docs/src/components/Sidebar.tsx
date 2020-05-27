@@ -45,6 +45,9 @@ export default () => (
         <li>
           <A href="/examples/dotted-loader/" title="Dotted loader" />
         </li>
+        <li>
+          <A href="/examples/random-blob/" title="Random blob" />
+        </li>
       </ul>
       <A href="/support/" title="Support" upper margin />
     </div>
