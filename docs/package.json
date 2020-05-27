@@ -2,7 +2,7 @@
   "private": true,
   "dependencies": {
     "@tailwindcss/ui": "^0.3.0",
-    "gatsby": "^2.22.9",
+    "gatsby": "^2.22.11",
     "gatsby-plugin-canonical-urls": "^2.3.2",
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "gatsby-plugin-netlify": "^2.3.3",
