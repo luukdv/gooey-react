@@ -8,21 +8,19 @@ import P from '../../components/P'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <>
-    <Layout>
-      <H1>Prop: intensity</H1>
-      <P moreMargin large>
-        You can use <Tag>intensity</Tag> to control how strong the gooey effect
-        is applied. It has three possible values: <Tag>weak</Tag>,{' '}
-        <Tag>medium</Tag> (which is the default) and <Tag>strong</Tag>.
-      </P>
-      <Divider />
-      <div className="md:grid md:grid-cols-2 md:gap-4">
-        <Example intensity="weak" />
-        <Example intensity="strong" />
-      </div>
-    </Layout>
-  </>
+  <Layout>
+    <H1>Prop: intensity</H1>
+    <P moreMargin large>
+      You can use <Tag>intensity</Tag> to control how strong the gooey effect is
+      applied. It has three possible values: <Tag>weak</Tag>, <Tag>medium</Tag>{' '}
+      (which is the default) and <Tag>strong</Tag>.
+    </P>
+    <Divider />
+    <div className="md:grid md:grid-cols-2 md:gap-4">
+      <Example intensity="weak" />
+      <Example intensity="strong" />
+    </div>
+  </Layout>
 )
 
 const Example = ({ intensity }: { intensity: 'weak' | 'strong' }) => (
