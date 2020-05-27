@@ -2,8 +2,8 @@ import React from 'react'
 import Goo from 'gooey-react'
 
 export default () => (
-  <Goo intensity="strong" className="flex items-center justify-center">
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-80 h-80">
+  <Goo intensity="strong">
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-80 h-80 mx-auto">
       <defs>
         <linearGradient id="gradient">
           <stop offset="0%" style={{ stopColor: 'darkviolet' }} />
