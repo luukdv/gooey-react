@@ -7,8 +7,9 @@ export default () => (
       mt-8
       md:mt-0
       w-full
-      md:w-1/4
-      lg:w-1/5
+      md:w-1/3
+      lg:w-1/4
+      xl:w-1/5
       flex-none
       tracking-wide
       mr-8
@@ -34,6 +35,15 @@ export default () => (
           <A href="/properties/id/" title="id" />
           <A href="/properties/classname-style/" title="className" />
           <A href="/properties/classname-style/" title="style" />
+        </li>
+      </ul>
+      <A href="/examples/rotating-loader/" title="Examples" upper margin />
+      <ul className="ml-4">
+        <li>
+          <A href="/examples/rotating-loader/" title="Rotating loader" />
+        </li>
+        <li>
+          <A href="/examples/dotted-loader/" title="Dotted loader" />
         </li>
       </ul>
       <A href="/support/" title="Support" upper margin />
