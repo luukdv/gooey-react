@@ -13,6 +13,10 @@
   100% { transform: rotate(360deg) }
 }
 
+@keyframes sway {
+  100% { transform: translateX(10%) }
+}
+
 @keyframes hero_one {
   100% { transform: rotate(360deg) translate(17.5%, 17.5%) }
 }
