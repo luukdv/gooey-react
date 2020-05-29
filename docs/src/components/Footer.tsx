@@ -2,7 +2,7 @@ import React from 'react'
 import Wrap from './Wrap'
 
 export default () => (
-  <div className="bg-cool-gray-100 text-sm mt-8 md:mt-12 lg:mt-16 text-center">
+  <div className="bg-cool-gray-100 text-sm mt-12 md:mt-16 text-center">
     <Wrap noMargin>
       <div className="flex flex-col sm:flex-row justify-between py-12 lg:py-16">
         <p className="mb-8 sm:mb-0">
