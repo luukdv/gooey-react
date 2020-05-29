@@ -5,7 +5,7 @@ export default () => (
     className="group"
     href="https://www.youtube.com/watch?v=KK4o5OA6NYg"
     target="_blank"
-    rel="nofollow noopener block"
+    rel="nofollow noopener noreferrer"
   >
     <figure>
       <img
