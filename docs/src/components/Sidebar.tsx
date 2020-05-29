@@ -27,16 +27,22 @@ export default () => (
           <A href="/" title="Usage" />
         </li>
       </ul>
-      <A href="/properties/intensity/" title="Properties" upper margin />
+      <A href="/properties/" title="Properties" upper margin />
       <ul className="ml-4">
         <li>
           <A href="/properties/intensity/" title="intensity" />
+        </li>
+        <li>
           <A href="/properties/id/" title="id" />
+        </li>
+        <li>
           <A href="/properties/classname-style/" title="className" />
+        </li>
+        <li>
           <A href="/properties/classname-style/" title="style" />
         </li>
       </ul>
-      <A href="/examples/rotating-loader/" title="Examples" upper margin />
+      <A href="/examples/" title="Examples" upper margin />
       <ul className="ml-4">
         <li>
           <A href="/examples/dotted-loader/" title="Dotted loader" />
