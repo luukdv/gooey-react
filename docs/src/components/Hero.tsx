@@ -3,7 +3,7 @@ import Goo from 'gooey-react'
 
 export default () => (
   <Goo intensity="strong">
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-80 h-80 mx-auto">
+    <svg role="img" xmlns="http://www.w3.org/2000/svg" className="w-80 h-80 mx-auto">
       <defs>
         <linearGradient id="gradient">
           <stop offset="0%" style={{ stopColor: 'darkviolet' }} />
