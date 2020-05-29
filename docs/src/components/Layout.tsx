@@ -35,7 +35,7 @@ export default ({
             <div className="font-bold md:text-lg text-cool-gray-800 mr-2">
               gooey-react
             </div>
-            <div className="text-cool-gray-500">v0.3.0</div>
+            <div className="text-cool-gray-500">v0.4.0</div>
           </div>
           <a
             className="underline text-sm font-semibold text-cool-gray-800"
