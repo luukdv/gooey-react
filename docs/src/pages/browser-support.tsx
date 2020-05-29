@@ -6,7 +6,7 @@ import P from '../components/P'
 export default () => (
   <Layout>
     <H1>Browser support</H1>
-    <P>
+    <P large>
       This package is not supported in Internet Explorer. If you experience
       problems in other browsers, make sure you're using an SVG instead of
       regular HTML elements in the component.
