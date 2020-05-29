@@ -2,7 +2,7 @@
   "name": "gooey-react",
   "version": "0.4.0",
   "description": "The gooey effect for React",
-  "homepage": "https://gooey-react.netlify.app/",
+  "homepage": "https://gooey-react.netlify.app",
   "repository": "luukdv/gooey-react",
   "bugs": "https://github.com/luukdv/gooey-react/issues",
   "license": "MIT",
