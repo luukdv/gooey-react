@@ -15,7 +15,7 @@ export default ({
     <Wrap noMargin={home}>
       {!home && (
         <div className="mb-10 flex justify-between items-center">
-            <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <svg
               role="img"
               aria-label="Example of a gooey effect"
@@ -37,7 +37,7 @@ export default ({
               gooey-react
             </div>
             <div className="text-cool-gray-500">v0.4.0</div>
-            </Link>
+          </Link>
           <a
             className="underline text-sm font-semibold text-cool-gray-800"
             href="https://github.com/luukdv/gooey-react"
