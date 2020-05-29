@@ -10,14 +10,13 @@ export default () => (
       md:w-1/3
       lg:w-1/4
       flex-none
-      tracking-wide
       mr-8
       lg:mr-16
       order-last
       md:order-first
     "
   >
-    <div className="bg-cool-gray-100 rounded-md md:sticky md:top-8 md:mt-2 p-6">
+    <div className="bg-cool-gray-100 rounded-lg md:sticky md:top-8 md:mt-2 p-6">
       <A href="/" title="Home" upper />
       <ul className="ml-4">
         <li>
@@ -80,7 +79,7 @@ const A = ({
       block
       py-1
       ${smallMargin ? 'mt-3' : margin ? 'mt-6' : ''}
-      ${upper ? 'text-sm font-bold uppercase mb-1' : ''}
+      ${upper ? 'text-sm font-bold tracking-wide uppercase mb-1' : ''}
   `}
   >
     {title}

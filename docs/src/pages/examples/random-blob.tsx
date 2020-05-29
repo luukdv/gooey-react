@@ -4,7 +4,7 @@ import Goo from 'gooey-react'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <Layout>
+  <Layout prev="/examples/rotating-loader/" prevLabel="Example: rotating loader" next="/browser-support/" nextLabel="Browser support">
     <H1>Random blob</H1>
     <div className="border-2 border-cool-gray-200">
       <Goo intensity="strong">

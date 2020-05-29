@@ -8,7 +8,7 @@ import Layout from '../../components/Layout'
 import { Link } from 'gatsby'
 
 export default () => (
-  <Layout>
+  <Layout prev="/properties/intensity/" prevLabel="Prop: intensity" next="/properties/classname-style/" nextLabel="Props: className & style">
     <H1>Prop: id</H1>
     <P moreMargin large>
       If you want to render multiple <Tag>Goo</Tag> components with different{' '}

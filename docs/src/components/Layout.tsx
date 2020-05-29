@@ -1,15 +1,24 @@
 import React from 'react'
 import Wrap from '../components/Wrap'
 import Footer from '../components/Footer'
+import Nav from '../components/Nav'
 import Sidebar from '../components/Sidebar'
 import { Link } from 'gatsby'
 
 export default ({
   children,
   home,
+  prev,
+  prevLabel,
+  next,
+  nextLabel,
 }: {
   children: React.ReactNode
   home?: boolean
+  prev?: string
+  prevLabel?: string
+  next?: string
+  nextLabel?: string
 }) => (
   <div className={`flex flex-col ${home ? '' : 'min-h-screen'}`}>
     <Wrap noMargin={home}>
@@ -50,8 +59,11 @@ export default ({
       )}
       <div className="flex flex-col md:flex-row w-full">
         <Sidebar />
-        <div className="flex-grow flex flex-col items-start main">
-          {children}
+        <div className="flex-grow">
+          <div className="main flex flex-col items-start">
+            {children}
+          </div>
+          <Nav prev={prev} prevLabel={prevLabel} next={next} nextLabel={nextLabel} />
         </div>
       </div>
     </Wrap>

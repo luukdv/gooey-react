@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Button from '../components/Button'
 
 export default () => (
-  <Layout>
+  <Layout prev="/" prevLabel="Home" next="/properties/intensity/" nextLabel="Prop: intensity">
     <H1>Properties</H1>
     <Button href="/properties/intensity/" title="intensity" />
     <Button href="/properties/id/" title="id" />

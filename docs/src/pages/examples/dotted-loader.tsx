@@ -4,8 +4,8 @@ import Goo from 'gooey-react'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <Layout>
-    <H1>Dotted loader</H1>
+  <Layout prev="/properties/classname-style/" prevLabel="Props: className & style" next="/examples/rotating-loader/" nextLabel="Example: rotating loader">
+    <H1>Example: dotted loader</H1>
     <div className="border-2 border-cool-gray-200">
       <Goo>
         <svg

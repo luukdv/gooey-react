@@ -6,7 +6,7 @@ import Divider from '../components/Divider'
 import P from '../components/P'
 
 export default () => (
-  <Layout>
+  <Layout prev="/browser-support/" prevLabel="Browser support">
     <H1>Considerations</H1>
     <H2>Elements</H2>
     <P moreMargin>
