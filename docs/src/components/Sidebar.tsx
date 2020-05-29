@@ -40,16 +40,17 @@ export default () => (
       <A href="/examples/rotating-loader/" title="Examples" upper margin />
       <ul className="ml-4">
         <li>
-          <A href="/examples/rotating-loader/" title="Rotating loader" />
+          <A href="/examples/dotted-loader/" title="Dotted loader" />
         </li>
         <li>
-          <A href="/examples/dotted-loader/" title="Dotted loader" />
+          <A href="/examples/rotating-loader/" title="Rotating loader" />
         </li>
         <li>
           <A href="/examples/random-blob/" title="Random blob" />
         </li>
       </ul>
       <A href="/support/" title="Support" upper margin />
+      <A href="/considerations/" title="Considerations" upper smallMargin />
     </div>
   </div>
 )
@@ -59,17 +60,23 @@ const A = ({
   title,
   upper,
   margin,
+  smallMargin,
 }: {
   href: string
   title: string
   upper?: boolean
   margin?: boolean
+  smallMargin?: boolean
 }) => (
   <Link
     to={href}
-    className={`hover:text-purple-600 block py-1 ${margin ? 'mt-6' : ''} ${
-      upper ? 'text-sm font-bold uppercase mb-1' : ''
-    }`}
+    className={`
+      hover:text-purple-600
+      block
+      py-1
+      ${smallMargin ? 'mt-3' : margin ? 'mt-6' : ''}
+      ${upper ? 'text-sm font-bold uppercase mb-1' : ''}
+  `}
   >
     {title}
   </Link>

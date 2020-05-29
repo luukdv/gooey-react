@@ -22,17 +22,9 @@ export default () => (
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <P>
+    <P moreMargin>
       You can put regular HTML elements inside the component, but using an SVG
       is recommended for better browser support.
-    </P>
-    <P moreMargin>
-      This library focuses on the graphical part of the effect, which means not
-      all HTML tags will be visible within the component. There is a popular
-      solution which applies a composite or blend to effectively duplicate all
-      original elements on top of the goo, but it greatly diminishes the effect.
-      If you want to show elements on top, the best solution is to simply move
-      them outside of the component.
     </P>
     <Divider />
   </>
