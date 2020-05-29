@@ -9,7 +9,12 @@ export default () => (
     <H1>Rotating loader</H1>
     <div className="border-2 border-cool-gray-200 mb-6 md:mb-8">
       <Goo intensity="strong">
-        <svg role="img" aria-label="Example of a gooey effect" xmlns="http://www.w3.org/2000/svg" className="w-64 h-64">
+        <svg
+          role="img"
+          aria-label="Example of a gooey effect"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-64 h-64"
+        >
           <g
             className="origin-center"
             style={{ animation: 'rotate 4s linear infinite' }}

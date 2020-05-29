@@ -39,7 +39,12 @@ const Example = ({ intensity }: { intensity: 'weak' | 'strong' }) => (
     </Code>
     <div className="border-2 border-cool-gray-200">
       <Goo intensity={intensity} id={intensity}>
-        <svg role="img" aria-label="Example of a gooey effect" xmlns="http://www.w3.org/2000/svg" className="w-64 h-64">
+        <svg
+          role="img"
+          aria-label="Example of a gooey effect"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-64 h-64"
+        >
           <circle
             cx="50%"
             cy="30%"

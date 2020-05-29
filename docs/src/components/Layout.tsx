@@ -42,7 +42,9 @@ export default ({
             href="https://github.com/luukdv/gooey-react"
             target="_blank"
             rel="nofollow noopener noreferrer"
-          >GitHub</a>
+          >
+            GitHub
+          </a>
         </div>
       )}
       <div className="flex flex-col md:flex-row w-full">

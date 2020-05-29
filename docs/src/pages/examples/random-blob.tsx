@@ -8,7 +8,12 @@ export default () => (
     <H1>Random blob</H1>
     <div className="border-2 border-cool-gray-200">
       <Goo intensity="strong">
-        <svg role="img" aria-label="Example of a gooey effect" xmlns="http://www.w3.org/2000/svg" className="w-64 h-64">
+        <svg
+          role="img"
+          aria-label="Example of a gooey effect"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-64 h-64"
+        >
           <g
             className="origin-center"
             style={{ animation: 'rotate_back 9s linear infinite' }}
