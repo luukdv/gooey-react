@@ -3,8 +3,8 @@
   "version": "0.3.0",
   "description": "The gooey effect for React",
   "homepage": "https://gooey-react.netlify.app/",
-  "repository": "luukdv/react-goo",
-  "bugs": "https://github.com/luukdv/react-goo/issues",
+  "repository": "luukdv/gooey-react",
+  "bugs": "https://github.com/luukdv/gooey-react/issues",
   "license": "MIT",
   "author": {
     "name": "Luuk de Vlieger",
