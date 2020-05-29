@@ -11,8 +11,8 @@ export default () => (
     >
       <defs>
         <linearGradient id="gradient">
-          <stop offset="0%" style={{ stopColor: 'darkviolet' }} />
-          <stop offset="100%" style={{ stopColor: 'darkturquoise' }} />
+          <stop offset="0" stopColor="darkviolet" />
+          <stop offset="1" stopColor="darkturquoise" />
         </linearGradient>
       </defs>
       <g
