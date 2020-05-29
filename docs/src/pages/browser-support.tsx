@@ -4,6 +4,6 @@ import Layout from '../components/Layout'
 
 export default () => (
   <Layout>
-    <H1>Support</H1>
+    <H1>Browser support</H1>
   </Layout>
 )

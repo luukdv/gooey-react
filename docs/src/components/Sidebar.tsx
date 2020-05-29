@@ -54,7 +54,7 @@ export default () => (
           <A href="/examples/random-blob/" title="Random blob" />
         </li>
       </ul>
-      <A href="/support/" title="Support" upper margin />
+      <A href="/browser-support/" title="Browser support" upper margin />
       <A href="/considerations/" title="Considerations" upper smallMargin />
     </div>
   </div>
