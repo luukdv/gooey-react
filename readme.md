@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Preview" src="docs/static/preview.gif" height="280" width="280">
+  <img alt="Preview" src="docs/static/preview.gif" height="260" width="260">
 </p>
 <p align="center">
 <h1 align="center">The gooey effect for React</h1>
