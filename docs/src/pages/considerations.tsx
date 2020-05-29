@@ -20,7 +20,7 @@ export default () => (
     <Divider />
     <H2>Performance</H2>
     <P>
-      This gooey filter can be resource intensive, so it's recommended to keep
+      The gooey filter can be resource intensive, so it's recommended to keep
       the paint area as small as possible.
     </P>
   </Layout>
