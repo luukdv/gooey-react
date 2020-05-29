@@ -25,4 +25,8 @@ module.exports = {
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
+  purge: {
+    content: ['./src/**/*.tsx'],
+    mode: 'all',
+  },
 }
