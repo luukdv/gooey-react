@@ -1,7 +1,6 @@
 <p align="center">
-  <img alt="Preview" src="docs/static/preview.gif" height="320" width="320">
+  <img alt="Preview" src="docs/static/preview.gif" height="280" width="280">
 </p>
-<p>‌</p>
 <p align="center">
 <h1 align="center">The gooey effect for React</h1>
 </p>
@@ -29,4 +28,5 @@ You can put regular HTML elements inside the component, but using an SVG is reco
 </a>
 
 > “What's this icky, paint-like goo?”
+
 *- Toad, 2002*
