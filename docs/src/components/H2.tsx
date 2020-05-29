@@ -11,8 +11,8 @@ export default ({ children }: { children: React.ReactNode }) => (
       text-cool-gray-800
       font-bold
       font-heading
-      mb-6
-      md:mb-8
+      mb-4
+      md:mb-6
     `}
   >
     {children}
