@@ -24,6 +24,7 @@ module.exports = {
   // https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   purge: {
     content: ['./src/**/*.tsx'],
