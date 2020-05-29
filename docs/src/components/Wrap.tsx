@@ -15,7 +15,7 @@ export default ({
       px-5
       sm:px-10
       max-w-screen-xl
-      ${noMargin ? '' : 'mt-8 md:mt-12'}
+      ${noMargin ? '' : 'mt-6 md:mt-10'}
     `}
   >
     {children}
