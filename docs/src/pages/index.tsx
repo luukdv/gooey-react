@@ -23,7 +23,7 @@ export default () => (
         missing) has been added as well.
       </P>
       <Divider />
-      <H2>Installation (1 kb)</H2>
+      <H2>Installation (±0.5 KB)</H2>
       <Code large moreMargin>
         npm install gooey-react
       </Code>
