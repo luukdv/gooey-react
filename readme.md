@@ -25,9 +25,8 @@ You can put regular HTML elements inside the component, but using an SVG is reco
 ---
 
 <a href="https://www.youtube.com/watch?v=KK4o5OA6NYg" target="_blank">
-  <img alt="Super Mario Sunshine" src="docs/static/icky.jpeg" height="280" width="280">
+  <img alt="Super Mario Sunshine" src="docs/static/icky.jpeg" height="270" width="270">
 </a>
 
 > “What's this icky, paint-like goo?”
-
-*- Toad, 2002
+*- Toad, 2002*
