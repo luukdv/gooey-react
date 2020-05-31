@@ -11,8 +11,10 @@ export default ({
   prevLabel?: string
   next?: string
   nextLabel?: string
-}) => prev || next ? (
-  <div className={`
+}) =>
+  prev || next ? (
+    <div
+      className={`
     flex
     ${prev ? 'justify-start' : 'justify-end'}
     w-full
@@ -21,20 +23,30 @@ export default ({
     mt-8
     md:mt-12
     border-cool-gray-200
-  `}>
-    {prev && <Link
-      to={prev}
-      className="px-8 py-6 w-1/2 group hover:bg-pink-50"
+  `}
     >
-      <div className="text-sm font-bold tracking-wide uppercase mb-1">Previous</div>
-      <div className="text-purple-600 underline group-hover:text-pink-600">{prevLabel}</div>
-    </Link>}
-    {next && <Link
-      to={next}
-      className="text-right w-1/2 px-8 py-6 group hover:bg-pink-50"
-    >
-      <div className="text-sm font-bold tracking-wide uppercase mb-1">Next</div>
-      <div className="text-purple-600 underline group-hover:text-pink-600">{nextLabel}</div>
-    </Link>}
-  </div>
-) : null
+      {prev && (
+        <Link to={prev} className="px-8 py-6 w-1/2 group hover:bg-pink-50">
+          <div className="text-sm font-bold tracking-wide uppercase mb-1">
+            Previous
+          </div>
+          <div className="text-purple-600 underline group-hover:text-pink-600">
+            {prevLabel}
+          </div>
+        </Link>
+      )}
+      {next && (
+        <Link
+          to={next}
+          className="text-right w-1/2 px-8 py-6 group hover:bg-pink-50"
+        >
+          <div className="text-sm font-bold tracking-wide uppercase mb-1">
+            Next
+          </div>
+          <div className="text-purple-600 underline group-hover:text-pink-600">
+            {nextLabel}
+          </div>
+        </Link>
+      )}
+    </div>
+  ) : null

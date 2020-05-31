@@ -60,10 +60,13 @@ export default ({
       <div className="flex flex-col md:flex-row w-full">
         <Sidebar />
         <div className="flex-grow">
-          <div className="main flex flex-col items-start">
-            {children}
-          </div>
-          <Nav prev={prev} prevLabel={prevLabel} next={next} nextLabel={nextLabel} />
+          <div className="main flex flex-col items-start">{children}</div>
+          <Nav
+            prev={prev}
+            prevLabel={prevLabel}
+            next={next}
+            nextLabel={nextLabel}
+          />
         </div>
       </div>
     </Wrap>

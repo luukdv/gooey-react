@@ -7,7 +7,12 @@ import P from '../../components/P'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <Layout prev="/properties/id/" prevLabel="Prop: id" next="/examples/dotted-loader/" nextLabel="Example: dotted loader">
+  <Layout
+    prev="/properties/id/"
+    prevLabel="Prop: id"
+    next="/examples/dotted-loader/"
+    nextLabel="Example: dotted loader"
+  >
     <H1>Props: className & style</H1>
     <P moreMargin large>
       You can forward a <Tag>className</Tag> and/or <Tag>style</Tag> property to

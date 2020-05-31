@@ -5,7 +5,12 @@ import Goo from 'gooey-react'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <Layout prev="/examples/dotted-loader/" prevLabel="Example: dotted loader" next="/examples/random-blob/" nextLabel="Example: random blob">
+  <Layout
+    prev="/examples/dotted-loader/"
+    prevLabel="Example: dotted loader"
+    next="/examples/random-blob/"
+    nextLabel="Example: random blob"
+  >
     <H1>Rotating loader</H1>
     <div className="border-2 border-cool-gray-200 mb-6 md:mb-8">
       <Goo intensity="strong">
