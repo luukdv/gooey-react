@@ -19,7 +19,13 @@ export default () => (
       <Example composite={true} />
     </div>
     <P>
-      As you can see, colors will not blend when you apply a composite. On the other hand, text that has been added inside the component will still be visible.
+      As you can see, colors will not blend when you apply a composite.
+    </P>
+    <Divider />
+    <div className="md:grid md:grid-cols-2 md:gap-4 mb-6 md:mb-8">
+    </div>
+    <P>
+      On the other hand, text that has been added inside the component will still be visible.
     </P>
   </Layout>
 )
@@ -37,13 +43,30 @@ const Example = ({ composite }: { composite: boolean }) => (
       <span className="text-blue-700">{'>'}</span>
     </Code>
     <div className="border-2 border-cool-gray-200">
-      <Goo composite={composite}>
+      <Goo composite={composite} id={composite.toString()} intensity="strong">
         <svg
           role="img"
           aria-label="Example of a gooey effect"
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
-        />
+        >
+          <rect
+            x={`${15}%`}
+            y={`${50 - 25 / 2}%`}
+            width={`${35}%`}
+            height={`${25}%`}
+            className="origin-center"
+            fill="deepskyblue"
+          />
+          <rect
+            x={`${50}%`}
+            y={`${50 - 25 / 2}%`}
+            width={`${35}%`}
+            height={`${25}%`}
+            className="origin-center"
+            fill="cornflowerblue"
+          />
+        </svg>
       </Goo>
     </div>
   </div>
