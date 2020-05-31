@@ -10,8 +10,8 @@ export default () => (
   <Layout
     prev="/properties/id/"
     prevLabel="Prop: id"
-    next="/examples/dotted-loader/"
-    nextLabel="Example: dotted loader"
+    next="/examples/around-the-web/"
+    nextLabel="Examples: around the web"
   >
     <H1>Props: className & style</H1>
     <P large>

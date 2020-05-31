@@ -47,6 +47,9 @@ export default () => (
       <A href="/examples/" title="Examples" upper margin />
       <ul className="ml-4">
         <li>
+          <A href="/examples/around-the-web/" title="Around the web" />
+        </li>
+        <li>
           <A href="/examples/dotted-loader/" title="Dotted loader" />
         </li>
         <li>

@@ -11,7 +11,7 @@ export default () => (
     next="/examples/random-blob/"
     nextLabel="Example: random blob"
   >
-    <H1>Rotating loader</H1>
+    <H1>Example: rotating loader</H1>
     <div className="border-2 border-cool-gray-200 mb-6 md:mb-8">
       <Goo intensity="strong">
         <svg
@@ -54,7 +54,7 @@ export default () => (
         className="underline text-purple-600 hover:text-pink-600"
         target="_blank"
         rel="nofollow noopener noreferrer"
-        href="https://www.visualcinnamon.com/2016/06/fun-data-visualizations-svg-gooey-effect.html"
+        href="http://bl.ocks.org/nbremer/0e98c72b043590769facc5e829ebf43f"
       >
         this article
       </a>{' '}

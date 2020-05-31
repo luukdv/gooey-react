@@ -10,7 +10,7 @@ export default () => (
     next="/browser-support/"
     nextLabel="Browser support"
   >
-    <H1>Random blob</H1>
+    <H1>Example: random blob</H1>
     <div className="border-2 border-cool-gray-200">
       <Goo intensity="strong">
         <svg

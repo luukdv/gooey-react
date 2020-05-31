@@ -9,12 +9,12 @@ export default () => (
   <Layout
     prev="/properties/classname-style/"
     prevLabel="Props: className & style"
-    next="/examples/dotted-loader/"
-    nextLabel="Example: dotted loader"
+    next="/examples/around-the-web/"
+    nextLabel="Examples: around the web"
   >
     <H1>Examples</H1>
-    <P large>The gooey effect might not be the most useful thing on the planet, but it can be used to create some amazing visuals.</P>
-    <Divider />
+    <P smallMargin large>The gooey effect might not be the most helpful thing on the planet, but it can be used to create some amazing visuals.</P>
+    <Button href="/examples/around-the-web/" title="Around the web" />
     <Button href="/examples/dotted-loader/" title="Dotted loader" />
     <Button href="/examples/rotating-loader/" title="Rotating loader" />
     <Button href="/examples/random-blob/" title="Random blob" />

@@ -5,8 +5,8 @@ import Layout from '../../components/Layout'
 
 export default () => (
   <Layout
-    prev="/properties/classname-style/"
-    prevLabel="Props: className & style"
+    prev="/examples/around-the-web/"
+    prevLabel="Examples: around the web"
     next="/examples/rotating-loader/"
     nextLabel="Example: rotating loader"
   >
