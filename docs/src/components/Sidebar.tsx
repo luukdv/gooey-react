@@ -32,6 +32,9 @@ export default () => (
           <A href="/properties/intensity/" title="intensity" />
         </li>
         <li>
+          <A href="/properties/composite/" title="composite" />
+        </li>
+        <li>
           <A href="/properties/id/" title="id" />
         </li>
         <li>

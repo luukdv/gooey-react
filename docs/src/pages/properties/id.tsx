@@ -9,13 +9,13 @@ import { Link } from 'gatsby'
 
 export default () => (
   <Layout
-    prev="/properties/intensity/"
-    prevLabel="Prop: intensity"
+    prev="/properties/composite/"
+    prevLabel="Prop: composite"
     next="/properties/classname-style/"
     nextLabel="Props: className & style"
   >
     <H1>Prop: id</H1>
-    <P moreMargin large>
+    <P large>
       If you want to render multiple <Tag>Goo</Tag> components with different{' '}
       <Link
         className="underline text-purple-600 hover:text-pink-600"
@@ -55,7 +55,7 @@ export default () => (
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <P moreMargin>
+    <P>
       A different <Tag>id</Tag> is passed to the second instance.
     </P>
     <Divider />

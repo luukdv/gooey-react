@@ -12,6 +12,7 @@ export default () => (
   >
     <H1>Properties</H1>
     <Button href="/properties/intensity/" title="intensity" />
+    <Button href="/properties/composite/" title="composite" />
     <Button href="/properties/id/" title="id" />
     <Button href="/properties/classname-style/" title="className" />
     <Button href="/properties/classname-style/" title="style" />
