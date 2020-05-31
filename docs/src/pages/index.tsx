@@ -14,7 +14,7 @@ export default () => (
     <Hero />
     <Layout home next="/properties/intensity/" nextLabel="Prop: intensity">
       <H1>The gooey effect for React</H1>
-      <P large moreMargin>
+      <P large>
         The 'gooey effect' has been made popular by various (amazing) blogposts
         over the years. This tiny package makes it easy to use within React, and
         has improved the implementation as much as possible. It's optimized to

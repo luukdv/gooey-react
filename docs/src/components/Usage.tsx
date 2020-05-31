@@ -3,6 +3,8 @@ import H2 from './H2'
 import P from './P'
 import Code from './Code'
 import Divider from './Divider'
+import Tag from './Tag'
+import { Link } from 'gatsby'
 
 export default () => (
   <>
@@ -23,8 +25,8 @@ export default () => (
       <span className="text-blue-700">{'>'}</span>
     </Code>
     <P>
-      You can put regular HTML elements inside the component, but using an SVG
-      is recommended for better browser support.
+      You can put regular HTML elements inside <Tag>Goo</Tag>, but using an SVG
+      is recommended for better browser support. Shape blobbing will be applied to everything within the component. See the <Link className="text-purple-600 underline hover:text-pink-600" to="/properties/">properties</Link> section for more information about usage.
     </P>
     <Divider />
   </>
