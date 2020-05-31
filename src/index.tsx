@@ -3,12 +3,14 @@ import React from 'react'
 const Goo = ({
   children,
   className,
+  composite = false,
   intensity = 'medium',
   id = 'gooey-react',
   style,
 }: {
   children: React.ReactNode;
   className?: string;
+  composite?: boolean;
   intensity?: 'weak' | 'medium' | 'strong';
   id?: string;
   style?: React.CSSProperties;
@@ -42,6 +44,12 @@ const Goo = ({
             <feColorMatrix
               values={`${r} ${g} ${b} ${a}`}
             />
+            {composite && (
+              <feComposite
+                in="SourceGraphic"
+                operator="atop"
+              ></feComposite>
+            )}
           </filter>
         </defs>
       </svg>
