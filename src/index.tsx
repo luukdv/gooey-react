@@ -26,10 +26,7 @@ const Goo = ({
   return (
     <>
       <svg
-        style={{
-          pointerEvents: 'none',
-          position: 'absolute',
-        }}
+        style={{ display: 'none' }}
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
