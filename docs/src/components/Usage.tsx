@@ -22,7 +22,7 @@ export default () => (
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <P moreMargin>
+    <P>
       You can put regular HTML elements inside the component, but using an SVG
       is recommended for better browser support.
     </P>

@@ -9,7 +9,7 @@ export default () => (
   <Layout prev="/browser-support/" prevLabel="Browser support">
     <H1>Considerations</H1>
     <H2>Elements</H2>
-    <P moreMargin>
+    <P>
       This library focuses on the graphical part of the effect, which means not
       all HTML tags will be visible within the component. There is a popular
       solution which applies a composite or blend to effectively duplicate all

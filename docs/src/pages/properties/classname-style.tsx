@@ -14,7 +14,7 @@ export default () => (
     nextLabel="Example: dotted loader"
   >
     <H1>Props: className & style</H1>
-    <P moreMargin large>
+    <P large>
       You can forward a <Tag>className</Tag> and/or <Tag>style</Tag> property to
       the component, which will be applied to the top-level element.
     </P>

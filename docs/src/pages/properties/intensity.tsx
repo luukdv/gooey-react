@@ -10,7 +10,7 @@ import Layout from '../../components/Layout'
 export default () => (
   <Layout prev="/" prevLabel="Home" next="/properties/id/" nextLabel="Prop: id">
     <H1>Prop: intensity</H1>
-    <P moreMargin large>
+    <P large>
       You can use <Tag>intensity</Tag> to control how strong the gooey effect is
       applied. It has three possible values: <Tag>weak</Tag>, <Tag>medium</Tag>{' '}
       (which is the default) and <Tag>strong</Tag>.
