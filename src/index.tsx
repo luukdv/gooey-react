@@ -47,7 +47,6 @@ const Goo = ({
             {composite && (
               <feComposite
                 in="SourceGraphic"
-                operator="atop"
               ></feComposite>
             )}
           </filter>
