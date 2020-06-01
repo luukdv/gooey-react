@@ -31,13 +31,13 @@ export default () => (
       the component, and place it on top without alterations.
     </P>
     <Divider />
-    <div className="md:grid md:grid-cols-2 md:gap-4 mb-6 md:mb-8">
+    <div className="lg:grid lg:grid-cols-2 lg:gap-4 mb-6 lg:mb-8">
       <ExampleOne composite={false} id="example_one_left" margin />
       <ExampleOne composite={true} id="example_one_right" />
     </div>
     <P>As you can see, colors will not blend when you apply a composite.</P>
     <Divider />
-    <div className="md:grid md:grid-cols-2 md:gap-4 mb-6 md:mb-8">
+    <div className="lg:grid lg:grid-cols-2 lg:gap-4 mb-6 lg:mb-8">
       <ExampleTwo composite={false} id="example_two_left" margin />
       <ExampleTwo composite={true} id="example_two_right" />
     </div>
@@ -63,7 +63,7 @@ const ExampleOne = ({
     flex
     flex-col
     items-start
-    ${margin ? 'mb-8 md:mb-0' : ''}
+    ${margin ? 'mb-8 md:mb-12 lg:mb-0' : ''}
   `}
   >
     <Code>
@@ -108,9 +108,19 @@ const ExampleTwo = ({
     flex
     flex-col
     items-start
-    ${margin ? 'mb-8 md:mb-0' : ''}
+    ${margin ? 'mb-8 md:mb-12 lg:mb-0' : ''}
   `}
   >
+    <Code>
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-yellow-700">{'Goo'}</span>
+      {composite && <span className="text-purple-700">{' composite'}</span>}
+      <span className="text-blue-700">{'>'}</span>
+      <span className="text-cool-gray-500"> … </span>
+      <span className="text-blue-700">{'</'}</span>
+      <span className="text-yellow-700">{'Goo'}</span>
+      <span className="text-blue-700">{'>'}</span>
+    </Code>
     <div className="border-2 border-cool-gray-200">
       <Goo composite={composite} id={id}>
         <svg

@@ -23,7 +23,7 @@ export default () => (
       (which is the default) and <Tag>strong</Tag>.
     </P>
     <Divider />
-    <div className="md:grid md:grid-cols-2 md:gap-4">
+    <div className="lg:grid lg:grid-cols-2 lg:gap-4">
       <Example intensity="weak" margin />
       <Example intensity="strong" />
     </div>
@@ -42,7 +42,7 @@ const Example = ({
     flex
     flex-col
     items-start
-    ${margin ? 'mb-8 md:mb-0' : ''}
+    ${margin ? 'mb-8 md:mb-12 lg:mb-0' : ''}
   `}
   >
     <Code>
