@@ -24,14 +24,27 @@ export default () => (
     </P>
     <Divider />
     <div className="md:grid md:grid-cols-2 md:gap-4">
-      <Example intensity="weak" />
+      <Example intensity="weak" margin />
       <Example intensity="strong" />
     </div>
   </Layout>
 )
 
-const Example = ({ intensity }: { intensity: 'weak' | 'strong' }) => (
-  <div className="flex flex-col items-start">
+const Example = ({
+  intensity,
+  margin,
+}: {
+  intensity: 'weak' | 'strong'
+  margin?: boolean
+}) => (
+  <div
+    className={`
+    flex
+    flex-col
+    items-start
+    ${margin ? 'mb-8 md:mb-0' : ''}
+  `}
+  >
     <Code>
       <span className="text-blue-700">{'<'}</span>
       <span className="text-yellow-700">{'Goo '}</span>
@@ -52,30 +65,32 @@ const Example = ({ intensity }: { intensity: 'weak' | 'strong' }) => (
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
-          <circle
-            cx="50%"
-            cy="30%"
-            r="30"
-            fill="lightcoral"
-            className="origin-center"
-            style={{
-              animation: 'drop 1.5s ease-in -0.75s infinite alternate',
-            }}
-          />
-          <circle
-            cx="70%"
-            cy="52.5%"
-            r="24"
-            fill="salmon"
-            className="origin-center"
-          />
-          <circle
-            cx="50%"
-            cy="30%"
-            r="48"
-            fill="lightsalmon"
-            className="origin-center"
-          />
+          <g>
+            <circle
+              cx="50%"
+              cy="30%"
+              r="30"
+              fill="lightcoral"
+              className="origin-center"
+              style={{
+                animation: 'drop 1.5s ease-in -0.75s infinite alternate',
+              }}
+            />
+            <circle
+              cx="70%"
+              cy="52.5%"
+              r="24"
+              fill="salmon"
+              className="origin-center"
+            />
+            <circle
+              cx="50%"
+              cy="30%"
+              r="48"
+              fill="lightsalmon"
+              className="origin-center"
+            />
+          </g>
         </svg>
       </Goo>
     </div>

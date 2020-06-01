@@ -32,13 +32,13 @@ export default () => (
     </P>
     <Divider />
     <div className="md:grid md:grid-cols-2 md:gap-4 mb-6 md:mb-8">
-      <ExampleOne composite={false} id="example_one_left" />
+      <ExampleOne composite={false} id="example_one_left" margin />
       <ExampleOne composite={true} id="example_one_right" />
     </div>
     <P>As you can see, colors will not blend when you apply a composite.</P>
     <Divider />
     <div className="md:grid md:grid-cols-2 md:gap-4 mb-6 md:mb-8">
-      <ExampleTwo composite={false} id="example_two_left" />
+      <ExampleTwo composite={false} id="example_two_left" margin />
       <ExampleTwo composite={true} id="example_two_right" />
     </div>
     <P>
@@ -49,8 +49,23 @@ export default () => (
   </Layout>
 )
 
-const ExampleOne = ({ composite, id }: { composite: boolean; id: string }) => (
-  <div className="flex flex-col items-start">
+const ExampleOne = ({
+  composite,
+  id,
+  margin,
+}: {
+  composite: boolean
+  id: string
+  margin?: boolean
+}) => (
+  <div
+    className={`
+    flex
+    flex-col
+    items-start
+    ${margin ? 'mb-8 md:mb-0' : ''}
+  `}
+  >
     <Code>
       <span className="text-blue-700">{'<'}</span>
       <span className="text-yellow-700">{'Goo'}</span>
@@ -69,16 +84,33 @@ const ExampleOne = ({ composite, id }: { composite: boolean; id: string }) => (
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
-          <circle cx="34.3%" cy="50%" r="40" fill="deepskyblue" />
-          <circle cx="65.7%" cy="50%" r="40" fill="cornflowerblue" />
+          <g>
+            <circle cx="34.3%" cy="50%" r="40" fill="deepskyblue" />
+            <circle cx="65.7%" cy="50%" r="40" fill="cornflowerblue" />
+          </g>
         </svg>
       </Goo>
     </div>
   </div>
 )
 
-const ExampleTwo = ({ composite, id }: { composite: boolean; id: string }) => (
-  <div className="flex flex-col items-start">
+const ExampleTwo = ({
+  composite,
+  id,
+  margin,
+}: {
+  composite: boolean
+  id: string
+  margin?: boolean
+}) => (
+  <div
+    className={`
+    flex
+    flex-col
+    items-start
+    ${margin ? 'mb-8 md:mb-0' : ''}
+  `}
+  >
     <div className="border-2 border-cool-gray-200">
       <Goo composite={composite} id={id}>
         <svg
@@ -87,23 +119,25 @@ const ExampleTwo = ({ composite, id }: { composite: boolean; id: string }) => (
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
-          <circle
-            className="origin-center"
-            cx="50%"
-            cy="60%"
-            r="24"
-            fill="mediumturquoise"
-            style={{
-              animation: 'rise 1.5s ease-in infinite alternate',
-            }}
-          />
-          <rect
-            x="20%"
-            y="47.5%"
-            width="60%"
-            height="25%"
-            fill="mediumturquoise"
-          />
+          <g>
+            <circle
+              className="origin-center"
+              cx="50%"
+              cy="60%"
+              r="24"
+              fill="mediumturquoise"
+              style={{
+                animation: 'rise 1.5s ease-in infinite alternate',
+              }}
+            />
+            <rect
+              x="20%"
+              y="47.5%"
+              width="60%"
+              height="25%"
+              fill="mediumturquoise"
+            />
+          </g>
         </svg>
       </Goo>
     </div>
