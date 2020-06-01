@@ -5,13 +5,13 @@ import P from '../../components/P'
 
 export default () => (
   <Layout
-    prev="/examples/rotating-loader/"
-    prevLabel="Example: rotating loader"
-    next="/browser-support/"
-    nextLabel="Browser support"
+    prev="/properties/classname-style/"
+    prevLabel="Props: className & style"
+    next="/examples/dotted-loader/"
+    nextLabel="Example: dotted loader"
   >
     <H1>Examples: around the web</H1>
-    <P large>A few links with some inspiring shape blobbing action.</P>
+    <P large smallMargin>A few links with some inspiring shape blobbing action.</P>
     <Link title="Blobs by Misaki Nakano" href="https://codepen.io/mnmxmx/full/VjjvEq" />
     <Link title="Button bubble by Adrien Grsmto" href="https://codepen.io/Grsmto/full/RPQPPB" />
     <Link title="Creative gooey effects by Lucas Bebber" href="https://tympanus.net/Development/CreativeGooeyEffects/" />
