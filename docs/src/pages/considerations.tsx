@@ -6,7 +6,7 @@ import Divider from '../components/Divider'
 import P from '../components/P'
 
 export default () => (
-  <Layout prev="/browser-support/" prevLabel="Browser support">
+  <Layout prev="/browser-support/" prevLabel="Browser support" title="Considerations" description="The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like react-spring and anime.js for more interesting animations and interactions.">
     <H1>Considerations</H1>
     <H2>Animations</H2>
     <P>

@@ -13,6 +13,8 @@ export default () => (
     prevLabel="Prop: intensity"
     next="/properties/id/"
     nextLabel="Prop: id"
+    title="Prop: composite"
+    description="By default, the effect is applied to everything within the component. With this approach, the goo is at its most effective: both shapes and colors will merge together."
   >
     <H1>Prop: composite</H1>
     <P large smallMargin>

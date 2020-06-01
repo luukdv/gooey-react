@@ -9,6 +9,7 @@ export default () => (
     prevLabel="Example: rotating loader"
     next="/browser-support/"
     nextLabel="Browser support"
+    title="Example: random blob"
   >
     <H1>Example: random blob</H1>
     <div className="border-2 border-cool-gray-200">

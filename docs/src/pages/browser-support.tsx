@@ -9,6 +9,8 @@ export default () => (
     prevLabel="Example: random blob"
     next="/considerations/"
     nextLabel="Considerations"
+    title="Browser support"
+    description="This package is not supported in Internet Explorer. If you experience problems in other browsers, make sure you're using an SVG instead of regular HTML elements in the component."
   >
     <H1>Browser support</H1>
     <P large>

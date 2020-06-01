@@ -8,44 +8,33 @@ export default (props: {
 }) => (
   <html lang="en" className="antialiased">
     <head>
-      <title>The gooey effect for React</title>
       <meta charSet="utf-8" />
-      <meta
-        name="description"
-        content="A tiny package for applying the gooey effect to React components."
-      />
-      <meta
-        property="og:description"
-        content="A tiny package for applying the gooey effect to React components."
-      />
-      <meta property="og:image:height" content="630" />
-      <meta
-        property="og:image:secure_url"
-        content="https://gooey-react.netlify.app/gooey-react.png"
-      />
-      <meta property="og:image:width" content="1200" />
-      <meta
-        property="og:image"
-        content="https://gooey-react.netlify.app/gooey-react.png"
-      />
-      <meta property="og:title" content="The gooey effect for React" />
-      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon-32x32.png"
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:width" content="1200" />
+      <meta
+        property="og:image:secure_url"
+        content="https://gooey-react.netlify.app/gooey-react.png"
+      />
+      <meta
+        property="og:image"
+        content="https://gooey-react.netlify.app/gooey-react.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
         href="/favicon-16x16.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon-32x32.png"
       />
       {props.headComponents}
     </head>

@@ -13,6 +13,8 @@ export default () => (
     prevLabel="Home"
     next="/properties/composite/"
     nextLabel="Prop: composite"
+    title="Prop: intensity"
+    description="You can use intensity to control how strong the gooey effect is applied. It has three possible values: weak, medium (which is the default) and strong.    "
   >
     <H1>Prop: intensity</H1>
     <P large>

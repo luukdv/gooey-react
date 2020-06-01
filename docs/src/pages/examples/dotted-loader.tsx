@@ -9,6 +9,7 @@ export default () => (
     prevLabel="Examples: around the web"
     next="/examples/rotating-loader/"
     nextLabel="Example: rotating loader"
+    title="Example: dotted loader"
   >
     <H1>Example: dotted loader</H1>
     <div className="border-2 border-cool-gray-200">

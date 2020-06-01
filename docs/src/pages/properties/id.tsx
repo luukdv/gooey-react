@@ -13,6 +13,8 @@ export default () => (
     prevLabel="Prop: composite"
     next="/properties/classname-style/"
     nextLabel="Props: className & style"
+    title="Prop: id"
+    description="If you want to render multiple Goo components with different values for intensity and/or composite, a unique identifier should be supplied to every additional instance."
   >
     <H1>Prop: id</H1>
     <P large>

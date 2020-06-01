@@ -9,6 +9,7 @@ export default () => (
     prevLabel="Example: dotted loader"
     next="/examples/random-blob/"
     nextLabel="Example: random blob"
+    title="Example: rotating loader"
   >
     <H1>Example: rotating loader</H1>
     <div className="border-2 border-cool-gray-200 mb-6 md:mb-8">

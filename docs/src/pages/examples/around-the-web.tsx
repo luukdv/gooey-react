@@ -9,6 +9,8 @@ export default () => (
     prevLabel="Props: className & style"
     next="/examples/dotted-loader/"
     nextLabel="Example: dotted loader"
+    title="Examples: around the web"
+    description="A few links with some inspiring shape blobbing action."
   >
     <H1>Examples: around the web</H1>
     <P large smallMargin>
