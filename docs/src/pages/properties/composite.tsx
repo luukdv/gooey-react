@@ -3,7 +3,7 @@ import Divider from '../../components/Divider'
 import H1 from '../../components/H1'
 import Tag from '../../components/Tag'
 import Code from '../../components/Code'
-import Goo from '../../../../src'
+import Goo from 'gooey-react'
 import P from '../../components/P'
 import Layout from '../../components/Layout'
 
