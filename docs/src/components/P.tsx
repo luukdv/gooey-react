@@ -13,7 +13,7 @@ export default ({
     className={`
       max-w-2xl
       leading-loose
-      ${large ? 'mb-6 md:mb-8' : 'mb-8 md:mb-12'}
+      ${smallMargin ? 'mb-6 md:mb-8' : 'mb-8 md:mb-12'}
       ${large ? 'lg:text-lg' : ''}
     `}
   >
