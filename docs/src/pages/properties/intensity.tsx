@@ -66,9 +66,9 @@ const Example = ({
           className="w-64 h-64"
         >
           <g
-        className="origin-center"
-        style={{ animation: 'sway 3s ease-in-out infinite alternate' }}
-      >
+            className="origin-center"
+            style={{ animation: 'sway 3s ease-in-out infinite alternate' }}
+          >
             <circle
               cx="45%"
               cy="30%"
