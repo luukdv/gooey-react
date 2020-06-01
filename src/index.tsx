@@ -26,6 +26,7 @@ const Goo = ({
   return (
     <>
       <svg
+        data-testid="svg"
         style={{
           pointerEvents: 'none',
           position: 'absolute',
