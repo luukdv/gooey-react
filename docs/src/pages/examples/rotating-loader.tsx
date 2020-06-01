@@ -1,6 +1,5 @@
 import React from 'react'
 import H1 from '../../components/H1'
-import P from '../../components/P'
 import Goo from 'gooey-react'
 import Layout from '../../components/Layout'
 
@@ -22,7 +21,7 @@ export default () => (
         >
           <g
             className="origin-center"
-            style={{ animation: 'rotate 4s linear infinite' }}
+            style={{ animation: 'rotate 5s linear infinite' }}
           >
             <circle cx="50%" cy="30%" r="24" fill="blueviolet" />
             <circle cx="70%" cy="50%" r="24" fill="darkorchid" />
@@ -34,7 +33,7 @@ export default () => (
               r="24"
               fill="hotpink"
               className="origin-center"
-              style={{ animation: 'rotate 2s linear infinite' }}
+              style={{ animation: 'rotate 2.5s linear infinite' }}
             />
             <circle
               cx="50%"
@@ -42,23 +41,11 @@ export default () => (
               r="24"
               fill="hotpink"
               className="origin-center"
-              style={{ animation: 'rotate 2s linear infinite' }}
+              style={{ animation: 'rotate 2.5s linear infinite' }}
             />
           </g>
         </svg>
       </Goo>
     </div>
-    <P>
-      Inspired by{' '}
-      <a
-        className="underline text-purple-600 hover:text-pink-600"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        href="http://bl.ocks.org/nbremer/0e98c72b043590769facc5e829ebf43f"
-      >
-        this article
-      </a>{' '}
-      from Nadieh Bremer.
-    </P>
   </Layout>
 )
