@@ -24,6 +24,7 @@ export default (props: {
         property="og:image"
         content="https://gooey-react.netlify.app/gooey-react.png"
       />
+      <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       <link
         rel="icon"
         type="image/png"
