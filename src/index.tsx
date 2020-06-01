@@ -47,6 +47,7 @@ const Goo = ({
             />
             {composite && (
               <feComposite
+                data-testid="composite"
                 in="SourceGraphic"
               ></feComposite>
             )}
