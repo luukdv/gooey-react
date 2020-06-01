@@ -16,18 +16,22 @@ export default () => (
   >
     <H1>Prop: id</H1>
     <P large>
-      If you want to render multiple <Tag>Goo</Tag> components with different values for <Link
+      If you want to render multiple <Tag>Goo</Tag> components with different
+      values for{' '}
+      <Link
         className="underline text-purple-600 hover:text-pink-600"
         to="/properties/intensity/"
       >
         intensity
-      </Link> and/or <Link
+      </Link>{' '}
+      and/or{' '}
+      <Link
         className="underline text-purple-600 hover:text-pink-600"
         to="/properties/composite/"
       >
         composite
-      </Link>, a unique identifier should be supplied to every additional
-      instance.
+      </Link>
+      , a unique identifier should be supplied to every additional instance.
     </P>
     <Divider />
     <Code>

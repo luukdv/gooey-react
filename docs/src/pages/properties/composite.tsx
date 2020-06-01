@@ -92,7 +92,7 @@ const ExampleTwo = ({ composite, id }: { composite: boolean; id: string }) => (
             r="24"
             fill="mediumturquoise"
             style={{
-               animation: 'rise 1.5s ease-in infinite alternate',
+              animation: 'rise 1.5s ease-in infinite alternate',
             }}
           />
           <rect

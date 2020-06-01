@@ -12,7 +12,10 @@ export default () => (
     nextLabel="Examples: around the web"
   >
     <H1>Examples</H1>
-    <P smallMargin large>The gooey effect might not be the most useful thing on the planet, but it can be used to create some cool visuals.</P>
+    <P smallMargin large>
+      The gooey effect might not be the most useful thing on the planet, but it
+      can be used to create some cool visuals.
+    </P>
     <Button href="/examples/around-the-web/" title="Around the web" />
     <Button href="/examples/dotted-loader/" title="Dotted loader" />
     <Button href="/examples/rotating-loader/" title="Rotating loader" />

@@ -8,7 +8,12 @@ import P from '../../components/P'
 import Layout from '../../components/Layout'
 
 export default () => (
-  <Layout prev="/" prevLabel="Home" next="/properties/composite/" nextLabel="Prop: composite">
+  <Layout
+    prev="/"
+    prevLabel="Home"
+    next="/properties/composite/"
+    nextLabel="Prop: composite"
+  >
     <H1>Prop: intensity</H1>
     <P large>
       You can use <Tag>intensity</Tag> to control how strong the gooey effect is
