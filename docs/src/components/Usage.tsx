@@ -26,8 +26,15 @@ export default () => (
     </Code>
     <P>
       You can put regular HTML elements inside <Tag>Goo</Tag>, but using an SVG
-      is recommended for better browser support. Shape blobbing will be applied
-      to everything within the component. See the{' '}
+      is recommended for better{' '}
+      <Link
+        className="text-purple-600 underline hover:text-pink-600"
+        to="/browser-support/"
+      >
+        browser support
+      </Link>
+      . Shape blobbing will be applied to everything within the component. See
+      the{' '}
       <Link
         className="text-purple-600 underline hover:text-pink-600"
         to="/properties/"
