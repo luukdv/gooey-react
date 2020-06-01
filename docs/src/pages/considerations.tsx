@@ -6,25 +6,35 @@ import Divider from '../components/Divider'
 import P from '../components/P'
 
 export default () => (
-  <Layout prev="/browser-support/" prevLabel="Browser support" title="Considerations" description="The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like react-spring and anime.js for more interesting animations and interactions.">
+  <Layout
+    prev="/browser-support/"
+    prevLabel="Browser support"
+    title="Considerations"
+    description="The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like react-spring and anime.js for more interesting animations and interactions."
+  >
     <H1>Considerations</H1>
     <H2>Animations</H2>
     <P>
-      The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like <a
-      className="text-purple-600 underline hover:text-pink-600"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-      href="https://github.com/react-spring/react-spring"
-    >
-      react-spring
-    </a> and <a
-      className="text-purple-600 underline hover:text-pink-600"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-      href="https://github.com/juliangarnier/anime"
-    >
-      anime.js
-    </a> for more interesting animations and interactions.
+      The various examples in the documentation use simple CSS keyframes. It's
+      worth checking out libraries like{' '}
+      <a
+        className="text-purple-600 underline hover:text-pink-600"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+        href="https://github.com/react-spring/react-spring"
+      >
+        react-spring
+      </a>{' '}
+      and{' '}
+      <a
+        className="text-purple-600 underline hover:text-pink-600"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+        href="https://github.com/juliangarnier/anime"
+      >
+        anime.js
+      </a>{' '}
+      for more interesting animations and interactions.
     </P>
     <Divider />
     <H2>Performance</H2>

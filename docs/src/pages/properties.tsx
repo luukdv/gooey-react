@@ -15,7 +15,10 @@ export default () => (
     description="The Goo component has a few simple props available for fine-tuning the visual outcome of the filter."
   >
     <H1>Properties</H1>
-    <P large smallMargin>The <Tag>Goo</Tag> component has a few simple props available for fine-tuning the visual outcome of the filter.</P>
+    <P large smallMargin>
+      The <Tag>Goo</Tag> component has a few simple props available for
+      fine-tuning the visual outcome of the filter.
+    </P>
     <Button href="/properties/intensity/" title="intensity" />
     <Button href="/properties/composite/" title="composite" />
     <Button href="/properties/id/" title="id" />
