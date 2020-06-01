@@ -64,7 +64,7 @@ export default () => (
 )
 
 const Link = ({ href, title }: { href: string; title: string }) => (
-  <div className="flex items-center mb-4">
+  <div className="flex items-center mb-3">
     <div className="mr-2">👉</div>
     <a
       className="text-purple-600 underline hover:text-pink-600"
