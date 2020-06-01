@@ -65,9 +65,12 @@ const Example = ({
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
-          <g>
+          <g
+        className="origin-center"
+        style={{ animation: 'sway 3s ease-in-out infinite alternate' }}
+      >
             <circle
-              cx="50%"
+              cx="45%"
               cy="30%"
               r="30"
               fill="lightcoral"
@@ -77,14 +80,14 @@ const Example = ({
               }}
             />
             <circle
-              cx="70%"
+              cx="65%"
               cy="52.5%"
               r="24"
               fill="salmon"
               className="origin-center"
             />
             <circle
-              cx="50%"
+              cx="45%"
               cy="30%"
               r="48"
               fill="lightsalmon"
