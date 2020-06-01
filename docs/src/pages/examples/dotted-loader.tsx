@@ -20,27 +20,31 @@ export default () => (
           xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
-          <circle
-            cx="25%"
-            cy="50%"
-            r="20"
-            fill="darkorchid"
-            style={{ animation: 'sway 0.4s ease-out infinite alternate' }}
-          />
-          <circle
-            cx="45%"
-            cy="50%"
-            r="20"
-            fill="blueviolet"
-            style={{ animation: 'sway 0.4s -0.4s ease-out infinite alternate' }}
-          />
-          <circle
-            cx="65%"
-            cy="50%"
-            r="20"
-            fill="rebeccapurple"
-            style={{ animation: 'sway 0.4s ease-out infinite alternate' }}
-          />
+          <g>
+            <circle
+              cx="25%"
+              cy="50%"
+              r="20"
+              fill="darkorchid"
+              style={{ animation: 'sway 0.4s ease-out infinite alternate' }}
+            />
+            <circle
+              cx="45%"
+              cy="50%"
+              r="20"
+              fill="blueviolet"
+              style={{
+                animation: 'sway 0.4s -0.4s ease-out infinite alternate',
+              }}
+            />
+            <circle
+              cx="65%"
+              cy="50%"
+              r="20"
+              fill="rebeccapurple"
+              style={{ animation: 'sway 0.4s ease-out infinite alternate' }}
+            />
+          </g>
         </svg>
       </Goo>
     </div>
