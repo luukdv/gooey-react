@@ -17,20 +17,20 @@
     "dist-types"
   ],
   "keywords": [
+    "gooey",
+    "goo",
+    "gooeyeffect",
+    "react",
+    "blobs",
+    "svg",
     "animation",
     "animations",
-    "blobs",
     "effect",
-    "goo",
-    "gooey",
-    "gooeyeffect",
     "graphics",
-    "react",
     "reactjs",
     "shape",
     "svg-filter",
-    "svg-filters",
-    "svg"
+    "svg-filters"
   ],
   "main": "dist-cjs/index.js",
   "module": "dist-esm/index.js",
