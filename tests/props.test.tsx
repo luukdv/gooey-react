@@ -17,3 +17,13 @@ it(`applies style`, () => {
 
   expect(screen.getByTestId('element')).toHaveStyle(style)
 })
+
+it(`applies id`, () => {
+  const id = 'test'
+
+  render(<Goo id={id}><div /></Goo>)
+
+  const filter = screen.getByTestId('filter')
+
+  expect(filter.getAttribute('id')).toBe(id)
+})
