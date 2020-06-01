@@ -8,7 +8,7 @@ export default () => (
         <p className="mb-8 sm:mb-0">
           gooey-react is a project by{' '}
           <a
-            className="underline font-medium"
+            className="underline font-semibold"
             href="https://www.luuk.site"
             target="_blank"
             rel="noopener"
