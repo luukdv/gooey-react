@@ -9,3 +9,11 @@ it(`applies class`, () => {
 
   expect(screen.getByTestId('element')).toHaveClass(className)
 })
+
+it(`applies style`, () => {
+  const style = { marginTop : '2rem' }
+
+  render(<Goo style={style}><div /></Goo>)
+
+  expect(screen.getByTestId('element')).toHaveStyle(style)
+})
