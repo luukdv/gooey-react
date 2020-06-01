@@ -28,7 +28,10 @@ export default ({
       `}
     >
       {prev && (
-        <Link to={prev} className="px-8 py-6 xs:w-1/2 group hover:bg-pink-50">
+        <Link
+          to={prev}
+          className="px-6 xs:px-8 py-5 xs:py-6 xs:w-1/2 group hover:bg-pink-50"
+        >
           <div className="text-sm font-bold tracking-wide uppercase mb-1">
             Previous
           </div>
@@ -40,7 +43,18 @@ export default ({
       {next && (
         <Link
           to={next}
-          className="text-right order-first xs:order-last xs:w-1/2 px-8 py-6 group hover:bg-pink-50"
+          className="
+            text-right
+            order-first
+            xs:order-last
+            xs:w-1/2
+            px-6
+            xs:px-8
+            py-5
+            xs:py-6
+            group
+            hover:bg-pink-50
+          "
         >
           <div className="text-sm font-bold tracking-wide uppercase mb-1">
             Next
