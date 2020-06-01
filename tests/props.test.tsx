@@ -2,6 +2,30 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import Goo from '../src'
 
+it(`sets default intensity`, () => {
+  render(<Goo><div /></Goo>)
+
+  const blur = screen.getByTestId('blur')
+
+  expect(blur.getAttribute('stdDeviation')).toBe('12')
+})
+
+it(`sets 'weak' intensity`, () => {
+  render(<Goo intensity="weak"><div /></Goo>)
+
+  const blur = screen.getByTestId('blur')
+
+  expect(blur.getAttribute('stdDeviation')).toBe('8')
+})
+
+it(`sets 'strong' intensity`, () => {
+  render(<Goo intensity="strong"><div /></Goo>)
+
+  const blur = screen.getByTestId('blur')
+
+  expect(blur.getAttribute('stdDeviation')).toBe('16')
+})
+
 it(`doesn't add composite by default`, () => {
   render(<Goo><div /></Goo>)
 

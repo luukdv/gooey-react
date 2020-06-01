@@ -40,6 +40,7 @@ const Goo = ({
             id={id}
           >
             <feGaussianBlur
+              data-testid="blur"
               stdDeviation={blur}
             />
             <feColorMatrix
