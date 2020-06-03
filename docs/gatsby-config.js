@@ -1,8 +1,10 @@
+const siteUrl = 'https://gooey-react.netlify.app'
+
 module.exports = {
   plugins: [
     {
       resolve: 'gatsby-plugin-canonical-urls',
-      options: { siteUrl: 'https://gooey-react.netlify.app' },
+      options: { siteUrl },
     },
     'gatsby-plugin-force-trailing-slashes',
     {
@@ -12,6 +14,8 @@ module.exports = {
     'gatsby-plugin-netlify',
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-typescript',
   ],
+  siteMetadata: { siteUrl },
 }
