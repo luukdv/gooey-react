@@ -9,6 +9,10 @@ export default (props: {
   <html lang="en" className="antialiased">
     <head>
       <meta charSet="utf-8" />
+      <meta
+        name="google-site-verification"
+        content="hkk4wkaOZz21saZHvuprBp5BPLO5amYybHqKJcA07no"
+      />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="viewport"
