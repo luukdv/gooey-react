@@ -28,6 +28,14 @@ export default () => (
           </a>
           <a
             className="underline font-semibold px-4"
+            href="https://yarnpkg.com/package/gooey-react"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            Yarn
+          </a>
+          <a
+            className="underline font-semibold px-4"
             href="https://github.com/luukdv/gooey-react"
             target="_blank"
             rel="nofollow noopener noreferrer"
