@@ -10,7 +10,7 @@
     "gatsby-plugin-postcss": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.3.3",
     "gatsby-plugin-sitemap": "^2.4.4",
-    "gooey-react": "^1.0.0",
+    "gooey-react": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
