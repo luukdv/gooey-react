@@ -26,7 +26,7 @@ export default ({
   title?: string
 }) => {
   const subtitle = 'The gooey effect for React'
-  const ogTitle = title ? `${title} ◗ ${subtitle}` : subtitle
+  const ogTitle = title ? `${title} • ${subtitle}` : subtitle
   const ogDescription = description
     ? description
     : 'A tiny package for applying the gooey effect to React components, which is used for shape blobbing.'
