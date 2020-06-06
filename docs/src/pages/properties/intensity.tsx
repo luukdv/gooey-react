@@ -62,7 +62,6 @@ const Example = ({
         <svg
           role="img"
           aria-label="Example of a gooey effect"
-          xmlns="http://www.w3.org/2000/svg"
           className="w-64 h-64"
         >
           <g

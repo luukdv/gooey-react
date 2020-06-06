@@ -49,7 +49,6 @@ export default ({
                   aria-label="Example of a gooey effect"
                   className="w-6 md:w-8 h-6 md:h-8 mr-3 md:mr-4"
                   viewBox="0 0 252 283"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <linearGradient
                     id="gradient"

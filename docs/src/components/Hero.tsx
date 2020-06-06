@@ -6,7 +6,6 @@ export default () => (
     <svg
       role="img"
       aria-label="Example of a gooey effect"
-      xmlns="http://www.w3.org/2000/svg"
       className="w-80 h-80 mx-auto"
     >
       <defs>
