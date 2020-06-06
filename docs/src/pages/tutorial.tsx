@@ -15,10 +15,10 @@ export default () => (
     next="/examples/around-the-web/"
     nextLabel="Examples: around the web"
     title="Tutorial"
-    description="Let's create something simple to show how to use this library."
+    description="Let's create something simple to show how this library can be used. First, install the dependency with NPM or Yarn."
   >
     <H1>Tutorial</H1>
-    <P smallMargin>
+    <P large smallMargin>
       Let's create something simple to show how this library can be used. First,
       install the dependency with NPM or Yarn.
     </P>
@@ -85,14 +85,17 @@ export default () => (
       <span className="text-red-700">{'circle '}</span>
       <span className="text-purple-700">{'cx'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'34% '}</span>
-      <span className="text-purple-700">{'cy'}</span>
+      <span className="text-green-700">{'34%'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'34% '}</span>
+      <span className="text-green-700">{'34%'}</span>
+      <span className="text-blue-700">{'" '}</span>
       <span className="text-purple-700">{'fill'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'orchid '}</span>
-      <span className="text-purple-700">{'r'}</span>
+      <span className="text-green-700">{'orchid'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' r'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'32'}</span>
       <span className="text-blue-700">{'">'}</span>
@@ -102,13 +105,16 @@ export default () => (
       <span className="text-red-700">{'circle '}</span>
       <span className="text-purple-700">{'cx'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'66% '}</span>
-      <span className="text-purple-700">{'cy'}</span>
+      <span className="text-green-700">{'66%'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'66% '}</span>
-      <span className="text-purple-700">{'fill'}</span>
+      <span className="text-green-700">{'66%'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' fill'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'orchid '}</span>
+      <span className="text-green-700">{'orchid'}</span>
+      <span className="text-blue-700">{'" '}</span>
       <span className="text-purple-700">{'r'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'32'}</span>
@@ -144,8 +150,9 @@ export default () => (
       <span className="text-red-700">{'circle '}</span>
       <span className="text-purple-700">{'cx'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'37% '}</span>
-      <span className="text-purple-700">{'cy'}</span>
+      <span className="text-green-700">{'37%'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'37%'}</span>
       <span className="text-blue-700">{'">'}</span>
@@ -154,13 +161,14 @@ export default () => (
       <span className="text-red-700">{'circle '}</span>
       <span className="text-purple-700">{'cx'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'63% '}</span>
-      <span className="text-purple-700">{'cy'}</span>
+      <span className="text-green-700">{'63%'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'63%'}</span>
       <span className="text-blue-700">{'">'}</span>
     </Code>
-    <div className="border-2 border-cool-gray-200">
+    <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
       <Goo>
         <svg width="192" height="192">
           <circle cx="37%" cy="37%" fill="orchid" r="32" />
