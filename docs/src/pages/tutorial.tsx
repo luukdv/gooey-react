@@ -74,8 +74,9 @@ export default () => (
       <span className="text-red-700">{'svg '}</span>
       <span className="text-purple-700">{'width'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'192 '}</span>
-      <span className="text-purple-700">{'height'}</span>
+      <span className="text-green-700">{'192'}</span>
+      <span className="text-blue-700">{'"'}</span>
+      <span className="text-purple-700">{' height'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'192'}</span>
       <span className="text-blue-700">{'">'}</span>
@@ -113,7 +114,7 @@ export default () => (
       <span className="text-blue-700">{'"'}</span>
       <span className="text-purple-700">{' fill'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'orchid'}</span>
+      <span className="text-green-700">{'mediumorchid'}</span>
       <span className="text-blue-700">{'" '}</span>
       <span className="text-purple-700">{'r'}</span>
       <span className="text-blue-700">{'="'}</span>
@@ -129,7 +130,7 @@ export default () => (
       <Goo>
         <svg width="192" height="192">
           <circle cx="34%" cy="34%" fill="orchid" r="32" />
-          <circle cx="66%" cy="66%" fill="orchid" r="32" />
+          <circle cx="66%" cy="66%" fill="mediumorchid" r="32" />
         </svg>
       </Goo>
     </div>
@@ -154,8 +155,9 @@ export default () => (
       <span className="text-blue-700">{'"'}</span>
       <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'37%'}</span>
-      <span className="text-blue-700">{'">'}</span>
+      <span className="text-green-700">{'37%"'}</span>
+      <span className="text-cool-gray-500 select-none"> … </span>
+      <span className="text-blue-700">{'>'}</span>
       <br />
       <span className="text-blue-700">{'<'}</span>
       <span className="text-red-700">{'circle '}</span>
@@ -165,14 +167,114 @@ export default () => (
       <span className="text-blue-700">{'"'}</span>
       <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
-      <span className="text-green-700">{'63%'}</span>
-      <span className="text-blue-700">{'">'}</span>
+      <span className="text-green-700">{'63%"'}</span>
+      <span className="text-cool-gray-500 select-none"> … </span>
+      <span className="text-blue-700">{'>'}</span>
     </Code>
     <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
       <Goo>
         <svg width="192" height="192">
           <circle cx="37%" cy="37%" fill="orchid" r="32" />
-          <circle cx="63%" cy="63%" fill="orchid" r="32" />
+          <circle cx="63%" cy="63%" fill="mediumorchid" r="32" />
+        </svg>
+      </Goo>
+    </div>
+    <Divider />
+    <P smallMargin>
+      We can add animations and transitions with some simple CSS transforms. For
+      more complex and engaging movement, an animation library is recommended.
+    </P>
+    <Code>
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-red-700">{'g '}</span>
+      <span className="text-purple-700">{'style'}</span>
+      <span className="text-blue-700">{'={{ '}</span>
+      animation
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'left 4s linear infinite'}</span>
+      <span className="text-blue-700">{"' }}"}</span>
+      <span className="text-blue-700">{'>'}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-red-700">{'circle '}</span>
+      <span className="text-purple-700">{'style'}</span>
+      <span className="text-blue-700">{'={{ '}</span>
+      animation
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'right 1s linear infinite'}</span>
+      <span className="text-blue-700">{"' }}"}</span>
+      <span className="text-cool-gray-500 select-none"> … </span>
+      <span className="text-blue-700">{'>'}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-red-700">{'circle'}</span>
+      <span className="text-cool-gray-500 select-none"> … </span>
+      <span className="text-blue-700">{'>'}</span>
+      <br />
+      <span className="text-blue-700">{'</'}</span>
+      <span className="text-red-700">{'g'}</span>
+      <span className="text-blue-700">{'>'}</span>
+    </Code>
+    <Code>
+      <span className="text-blue-700">{'@keyframes '}</span>
+      left
+      <span className="text-blue-700">{' {'}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-yellow-700">{'100% '}</span>
+      <span className="text-blue-700">{'{ '}</span>
+      <span className="text-purple-700">{'transform'}</span>
+      <span className="text-blue-700">{': '}</span>
+      <span className="text-blue-700">{'rotate'}</span>
+      <span className="text-blue-700">{'('}</span>
+      <span className="text-red-700">{'-360deg'}</span>
+      <span className="text-blue-700">{') } '}</span>
+      <br />
+      <span className="text-blue-700">{'}'}</span>
+      <br />
+      <br />
+      <span className="text-blue-700">{'@keyframes '}</span>
+      right
+      <span className="text-blue-700">{' {'}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-yellow-700">{'100% '}</span>
+      <span className="text-blue-700">{'{ '}</span>
+      <span className="text-purple-700">{'transform'}</span>
+      <span className="text-blue-700">{': '}</span>
+      <span className="text-blue-700">{'rotate'}</span>
+      <span className="text-blue-700">{'('}</span>
+      <span className="text-red-700">{'360deg'}</span>
+      <span className="text-blue-700">{') } '}</span>
+      <br />
+      <span className="text-blue-700">{'}'}</span>
+    </Code>
+    <P smallMargin>Which will result in the following.</P>
+    <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
+      <Goo>
+        <svg width="192" height="192">
+          <g
+            className="origin-center"
+            style={{ animation: 'rotate_back 4s linear infinite' }}
+          >
+            <circle
+              className="origin-center"
+              style={{ animation: 'rotate 1s linear infinite' }}
+              cx="37%"
+              cy="37%"
+              fill="orchid"
+              r="32"
+            />
+            <circle
+              className="origin-center"
+              cx="63%"
+              cy="63%"
+              fill="mediumorchid"
+              r="32"
+            />
+          </g>
         </svg>
       </Goo>
     </div>
