@@ -44,7 +44,8 @@ export default () => (
           <A href="/properties/classname-style/" title="style" />
         </li>
       </ul>
-      <A href="/examples/" title="Examples" upper margin />
+      <A href="/tutorial/" title="Tutorial" upper margin />
+      <A href="/examples/" title="Examples" upper smallMargin />
       <ul className="ml-4">
         <li>
           <A href="/examples/around-the-web/" title="Around the web" />
