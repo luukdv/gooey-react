@@ -28,7 +28,7 @@ export default () => (
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">mt-8</span>
       <span className="text-blue-700">{'">'}</span>
-      <span className="text-cool-gray-500"> … </span>
+      <span className="text-cool-gray-500 select-none"> … </span>
       <span className="text-blue-700">{'</'}</span>
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
@@ -42,7 +42,7 @@ export default () => (
       <span className="text-blue-700">{": '"}</span>
       <span className="text-green-700">2rem</span>
       <span className="text-blue-700">{"' }}>"}</span>
-      <span className="text-cool-gray-500"> … </span>
+      <span className="text-cool-gray-500 select-none"> … </span>
       <span className="text-blue-700">{'</'}</span>
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
