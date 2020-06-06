@@ -10,8 +10,8 @@ export default () => (
   <Layout
     prev="/properties/id/"
     prevLabel="Prop: id"
-    next="/examples/around-the-web/"
-    nextLabel="Examples: around the web"
+    next="/tutorial/"
+    nextLabel="Tutorial"
     title="Props: className & style"
     description="You can forward a className and/or style property to the component, which will be applied to the top-level element."
   >
