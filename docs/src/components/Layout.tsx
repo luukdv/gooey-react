@@ -29,7 +29,7 @@ export default ({
   const ogTitle = title ? `${title} • ${subtitle}` : subtitle
   const ogDescription = description
     ? description
-    : 'A tiny package for applying the gooey effect to React components, which is used for shape blobbing.'
+    : 'A tiny package for applying the gooey effect as a React component, which is used for shape blobbing.'
 
   return (
     <>
