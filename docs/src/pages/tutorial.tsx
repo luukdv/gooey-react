@@ -99,7 +99,7 @@ export default () => (
       <span className="text-purple-700">{' r'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'32'}</span>
-      <span className="text-blue-700">{'">'}</span>
+      <span className="text-blue-700">{'" />'}</span>
       <br />
       &nbsp;&nbsp;
       <span className="text-blue-700">{'<'}</span>
@@ -119,7 +119,7 @@ export default () => (
       <span className="text-purple-700">{'r'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'32'}</span>
-      <span className="text-blue-700">{'">'}</span>
+      <span className="text-blue-700">{'" />'}</span>
       <br />
       <span className="text-blue-700">{'</'}</span>
       <span className="text-red-700">{'svg'}</span>
@@ -156,8 +156,8 @@ export default () => (
       <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'37%"'}</span>
-      <span className="text-cool-gray-500 select-none"> … </span>
-      <span className="text-blue-700">{'>'}</span>
+      <span className="text-cool-gray-500 select-none"> …</span>
+      <span className="text-blue-700">{' />'}</span>
       <br />
       <span className="text-blue-700">{'<'}</span>
       <span className="text-red-700">{'circle '}</span>
@@ -168,8 +168,8 @@ export default () => (
       <span className="text-purple-700">{' cy'}</span>
       <span className="text-blue-700">{'="'}</span>
       <span className="text-green-700">{'63%"'}</span>
-      <span className="text-cool-gray-500 select-none"> … </span>
-      <span className="text-blue-700">{'>'}</span>
+      <span className="text-cool-gray-500 select-none"> …</span>
+      <span className="text-blue-700">{' />'}</span>
     </Code>
     <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
       <Goo>
@@ -204,14 +204,14 @@ export default () => (
       <span className="text-blue-700">{": '"}</span>
       <span className="text-green-700">{'right 1s linear infinite'}</span>
       <span className="text-blue-700">{"' }}"}</span>
-      <span className="text-cool-gray-500 select-none"> … </span>
-      <span className="text-blue-700">{'>'}</span>
+      <span className="text-cool-gray-500 select-none"> …</span>
+      <span className="text-blue-700">{' />'}</span>
       <br />
       &nbsp;&nbsp;
       <span className="text-blue-700">{'<'}</span>
       <span className="text-red-700">{'circle'}</span>
-      <span className="text-cool-gray-500 select-none"> … </span>
-      <span className="text-blue-700">{'>'}</span>
+      <span className="text-cool-gray-500 select-none"> …</span>
+      <span className="text-blue-700">{' />'}</span>
       <br />
       <span className="text-blue-700">{'</'}</span>
       <span className="text-red-700">{'g'}</span>
