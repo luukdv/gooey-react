@@ -26,8 +26,8 @@ export default () => (
     <Divider />
     <P smallMargin>
       Next, we'll add some elements inside the component. You can use regular
-      HTML elements (like a <Tag>div</Tag>) as well, but here an SVG is used for
-      optimal browser support.
+      HTML elements (like a <Tag>div</Tag>), but an SVG is used here for optimal
+      browser support.
     </P>
     <Code moreMargin>
       <span className="text-blue-700">import</span> Goo{' '}
