@@ -28,6 +28,11 @@ export default (props: {
         property="og:image"
         content="https://gooey-react.netlify.app/gooey-react.png"
       />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/apple-touch-icon.png"
+      />
       <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       <link
         rel="icon"
