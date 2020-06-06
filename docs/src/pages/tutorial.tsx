@@ -18,12 +18,19 @@ export default () => (
     description="Let's create something simple to show how to use this library."
   >
     <H1>Tutorial</H1>
-    <P smallMargin>Let's create something simple to show how this library can be used. First, install the dependency with NPM or Yarn.</P>
+    <P smallMargin>
+      Let's create something simple to show how this library can be used. First,
+      install the dependency with NPM or Yarn.
+    </P>
     <Code moreMargin>npm install gooey-react</Code>
     <Divider />
-    <P smallMargin>Next, we'll add some elements inside the component. You can use regular HTML elements (like a <Tag>div</Tag>) as well, but here an SVG is used for optimal browser support.</P>
+    <P smallMargin>
+      Next, we'll add some elements inside the component. You can use regular
+      HTML elements (like a <Tag>div</Tag>) as well, but here an SVG is used for
+      optimal browser support.
+    </P>
     <Code moreMargin>
-    <span className="text-blue-700">import</span> Goo{' '}
+      <span className="text-blue-700">import</span> Goo{' '}
       <span className="text-blue-700">from '</span>
       <span className="text-green-700">gooey-react</span>
       <span className="text-blue-700">'</span>
@@ -58,7 +65,10 @@ export default () => (
       <span className="text-blue-700">{'>'}</span>
     </Code>
     <Divider />
-    <P smallMargin>We'll want to add some dimensions and color to these elements so they're visible.</P>
+    <P smallMargin>
+      We'll want to add some dimensions and color to these elements so they're
+      visible.
+    </P>
     <Code>
       <span className="text-blue-700">{'<'}</span>
       <span className="text-red-700">{'svg '}</span>
@@ -118,7 +128,17 @@ export default () => (
       </Goo>
     </div>
     <Divider />
-    <P smallMargin>If we move the elements closer together, the effect becomes apparent. You can use the <Link className="underline text-purple-600 hover:text-pink-600" to="/properties/intensity/">intensity</Link> prop to control how strong the goo is applied.</P>
+    <P smallMargin>
+      If we move the elements closer together, the effect becomes apparent. You
+      can use the{' '}
+      <Link
+        className="underline text-purple-600 hover:text-pink-600"
+        to="/properties/intensity/"
+      >
+        intensity
+      </Link>{' '}
+      prop to control how strong the goo is applied.
+    </P>
     <Code>
       <span className="text-blue-700">{'<'}</span>
       <span className="text-red-700">{'circle '}</span>
