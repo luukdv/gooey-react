@@ -10,7 +10,7 @@ export default () => (
     prev="/browser-support/"
     prevLabel="Browser support"
     title="Considerations"
-    description="The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like react-spring and anime.js for more interesting animations and interactions."
+    description="The various examples in the documentation use simple CSS keyframes. It's worth checking out libraries like anime.js or react-spring for more interesting animations and interactions."
   >
     <H1>Considerations</H1>
     <H2>Animations</H2>
@@ -21,18 +21,18 @@ export default () => (
         className="text-purple-600 underline hover:text-pink-600"
         rel="nofollow noopener noreferrer"
         target="_blank"
-        href="https://github.com/react-spring/react-spring"
+        href="https://github.com/juliangarnier/anime"
       >
-        react-spring
+        anime.js
       </a>{' '}
-      and{' '}
+      or{' '}
       <a
         className="text-purple-600 underline hover:text-pink-600"
         rel="nofollow noopener noreferrer"
         target="_blank"
-        href="https://github.com/juliangarnier/anime"
+        href="https://github.com/react-spring/react-spring"
       >
-        anime.js
+        react-spring
       </a>{' '}
       for more interesting animations and interactions.
     </P>
