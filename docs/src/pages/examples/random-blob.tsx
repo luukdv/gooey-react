@@ -1,5 +1,6 @@
 import React from 'react'
 import H1 from '../../components/H1'
+import Example from '../../components/Example'
 import Goo from 'gooey-react'
 import Layout from '../../components/Layout'
 
@@ -12,7 +13,7 @@ export default () => (
     title="Example: random blob"
   >
     <H1>Example: random blob</H1>
-    <div className="border-2 border-cool-gray-200">
+    <Example>
       <Goo intensity="strong">
         <svg
           role="img"
@@ -59,6 +60,6 @@ export default () => (
           </g>
         </svg>
       </Goo>
-    </div>
+    </Example>
   </Layout>
 )

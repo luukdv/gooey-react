@@ -4,6 +4,7 @@ import H1 from '../components/H1'
 import Layout from '../components/Layout'
 import P from '../components/P'
 import Divider from '../components/Divider'
+import Example from '../components/Example'
 import Code from '../components/Code'
 import Tag from '../components/Tag'
 import { Link } from 'gatsby'
@@ -126,14 +127,14 @@ export default () => (
       <span className="text-blue-700">{'>'}</span>
     </Code>
     <P smallMargin>Which will look like the following.</P>
-    <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
+    <Example margin>
       <Goo>
         <svg width="192" height="192">
           <circle cx="34%" cy="34%" fill="orchid" r="32" />
           <circle cx="66%" cy="66%" fill="mediumorchid" r="32" />
         </svg>
       </Goo>
-    </div>
+    </Example>
     <Divider />
     <P smallMargin>
       If we move the elements closer together, the effect becomes apparent. You
@@ -171,14 +172,14 @@ export default () => (
       <span className="text-cool-gray-500 select-none"> …</span>
       <span className="text-blue-700">{' />'}</span>
     </Code>
-    <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
+    <Example margin>
       <Goo>
         <svg width="192" height="192">
           <circle cx="37%" cy="37%" fill="orchid" r="32" />
           <circle cx="63%" cy="63%" fill="mediumorchid" r="32" />
         </svg>
       </Goo>
-    </div>
+    </Example>
     <Divider />
     <P smallMargin>
       We can add animations and transitions with some simple CSS transforms. For
@@ -260,7 +261,7 @@ export default () => (
       <span className="text-blue-700">{'}'}</span>
     </Code>
     <P smallMargin>Which will result in the following.</P>
-    <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
+    <Example>
       <Goo>
         <svg width="192" height="192">
           <g style={{ animation: 'rotate_back 4s linear infinite' }}>
@@ -275,6 +276,6 @@ export default () => (
           </g>
         </svg>
       </Goo>
-    </div>
+    </Example>
   </Layout>
 )

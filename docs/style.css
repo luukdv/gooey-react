@@ -28,7 +28,7 @@ svg * { transform-origin: 50% }
 }
 
 @keyframes rise {
-  100% { transform: translateY(-22.5%) }
+  100% { transform: translateY(-20%) }
 }
 
 @keyframes hero_one {

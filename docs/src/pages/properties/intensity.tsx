@@ -1,6 +1,7 @@
 import React from 'react'
 import Divider from '../../components/Divider'
 import H1 from '../../components/H1'
+import Example from '../../components/Example'
 import Tag from '../../components/Tag'
 import Code from '../../components/Code'
 import Goo from 'gooey-react'
@@ -24,13 +25,13 @@ export default () => (
     </P>
     <Divider />
     <div className="lg:grid lg:grid-cols-2 lg:gap-4">
-      <Example intensity="weak" margin />
-      <Example intensity="strong" />
+      <Preview intensity="weak" margin />
+      <Preview intensity="strong" />
     </div>
   </Layout>
 )
 
-const Example = ({
+const Preview = ({
   intensity,
   margin,
 }: {
@@ -57,7 +58,7 @@ const Example = ({
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <div className="border-2 border-cool-gray-200">
+    <Example>
       <Goo intensity={intensity} id={intensity}>
         <svg
           role="img"
@@ -79,6 +80,6 @@ const Example = ({
           </g>
         </svg>
       </Goo>
-    </div>
+    </Example>
   </div>
 )

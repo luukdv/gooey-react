@@ -2,6 +2,7 @@ import React from 'react'
 import Divider from '../../components/Divider'
 import H1 from '../../components/H1'
 import Tag from '../../components/Tag'
+import Example from '../../components/Example'
 import Code from '../../components/Code'
 import Goo from 'gooey-react'
 import P from '../../components/P'
@@ -32,14 +33,14 @@ export default () => (
     </P>
     <Divider />
     <div className="lg:grid lg:grid-cols-2 lg:gap-4 mb-6 lg:mb-8">
-      <ExampleOne composite={false} id="example_one_left" margin />
-      <ExampleOne composite={true} id="example_one_right" />
+      <PreviewOne composite={false} id="example_one_left" margin />
+      <PreviewOne composite={true} id="example_one_right" />
     </div>
     <P>As you can see, colors will not blend when you apply a composite.</P>
     <Divider />
     <div className="lg:grid lg:grid-cols-2 lg:gap-4 mb-6 lg:mb-8">
-      <ExampleTwo composite={false} id="example_two_left" margin />
-      <ExampleTwo composite={true} id="example_two_right" />
+      <PreviewTwo composite={false} id="example_two_left" margin />
+      <PreviewTwo composite={true} id="example_two_right" />
     </div>
     <P>
       On the other hand, a rectangle with still render as expected. As noted,
@@ -49,7 +50,7 @@ export default () => (
   </Layout>
 )
 
-const ExampleOne = ({
+const PreviewOne = ({
   composite,
   id,
   margin,
@@ -76,7 +77,7 @@ const ExampleOne = ({
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <div className="border-2 border-cool-gray-200">
+    <Example>
       <Goo composite={composite} id={id} intensity="strong">
         <svg
           role="img"
@@ -89,11 +90,11 @@ const ExampleOne = ({
           </g>
         </svg>
       </Goo>
-    </div>
+    </Example>
   </div>
 )
 
-const ExampleTwo = ({
+const PreviewTwo = ({
   composite,
   id,
   margin,
@@ -120,7 +121,7 @@ const ExampleTwo = ({
       <span className="text-yellow-700">{'Goo'}</span>
       <span className="text-blue-700">{'>'}</span>
     </Code>
-    <div className="border-2 border-cool-gray-200">
+    <Example>
       <Goo composite={composite} id={id}>
         <svg
           role="img"
@@ -134,7 +135,7 @@ const ExampleTwo = ({
               r="24"
               fill="mediumturquoise"
               style={{
-                animation: 'rise 1.5s ease-in infinite alternate',
+                animation: 'rise 1.5s ease-in-out infinite alternate',
               }}
             />
             <rect
@@ -147,6 +148,6 @@ const ExampleTwo = ({
           </g>
         </svg>
       </Goo>
-    </div>
+    </Example>
   </div>
 )
