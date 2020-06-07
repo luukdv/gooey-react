@@ -9,6 +9,8 @@
   src: url(/font.woff) format('woff');
 }
 
+svg * { transform-origin: 50% }
+
 @keyframes rotate {
   100% { transform: rotate(360deg) }
 }
@@ -63,8 +65,4 @@
 
 .main > :last-child {
   @apply mb-0;
-}
-
-svg * {
-  transform-origin: 50%;
 }
