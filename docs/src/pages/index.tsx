@@ -8,9 +8,14 @@ import P from '../components/P'
 import Usage from '../components/Usage'
 import Icky from '../components/Icky'
 import Layout from '../components/Layout'
+import Header from '../components/Header'
+import Wrap from '../components/Wrap'
 
 export default () => (
   <>
+    <Wrap absolute>
+      <Header logo={false} />
+    </Wrap>
     <Hero />
     <Layout home next="/properties/intensity/" nextLabel="Prop: intensity">
       <H1>The gooey effect for React</H1>
