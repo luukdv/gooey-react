@@ -8,7 +8,7 @@ export default () => (
         <p className="mb-8 sm:mb-0">
           gooey-react is a project by{' '}
           <a
-            className="underline font-semibold"
+            className="underline font-semibold hover:text-purple-600"
             href="https://www.luuk.site"
             target="_blank"
             rel="noopener"
@@ -19,7 +19,7 @@ export default () => (
         </p>
         <div className="flex justify-center">
           <a
-            className="underline font-semibold px-4"
+            className="underline font-semibold hover:text-purple-600 px-4"
             href="https://www.npmjs.com/package/gooey-react"
             target="_blank"
             rel="nofollow noopener noreferrer"
@@ -27,7 +27,7 @@ export default () => (
             NPM
           </a>
           <a
-            className="underline font-semibold px-4"
+            className="underline font-semibold hover:text-purple-600 px-4"
             href="https://yarnpkg.com/package/gooey-react"
             target="_blank"
             rel="nofollow noopener noreferrer"
@@ -35,7 +35,7 @@ export default () => (
             Yarn
           </a>
           <a
-            className="underline font-semibold px-4"
+            className="underline font-semibold hover:text-purple-600 px-4"
             href="https://github.com/luukdv/gooey-react"
             target="_blank"
             rel="nofollow noopener noreferrer"
@@ -43,7 +43,7 @@ export default () => (
             GitHub
           </a>
           <a
-            className="underline font-semibold px-4"
+            className="underline font-semibold hover:text-purple-600 px-4"
             href="https://www.luuk.site"
             target="_blank"
             rel="noopener"

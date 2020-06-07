@@ -28,7 +28,7 @@ export default ({ logo = true }: { logo?: boolean }) => (
       <div className="text-cool-gray-500">v1.0.1</div>
     </Link>
     <a
-      className="underline text-sm font-semibold text-cool-gray-800"
+      className="underline text-sm font-semibold text-cool-gray-800 hover:text-purple-600"
       href="https://github.com/luukdv/gooey-react"
       target="_blank"
       rel="nofollow noopener noreferrer"
