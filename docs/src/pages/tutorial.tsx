@@ -218,6 +218,14 @@ export default () => (
       <span className="text-blue-700">{'>'}</span>
     </Code>
     <Code>
+      <span className="text-yellow-700">{'svg * '}</span>
+      <span className="text-blue-700">{' { '}</span>
+      <span className="text-purple-700">{'transform-origin'}</span>
+      <span className="text-blue-700">{': '}</span>
+      <span className="text-red-700">{'50%'}</span>
+      <span className="text-blue-700">{' }'}</span>
+      <br />
+      <br />
       <span className="text-blue-700">{'@keyframes '}</span>
       left
       <span className="text-blue-700">{' {'}</span>
