@@ -129,7 +129,6 @@ const ExampleTwo = ({
         >
           <g>
             <circle
-              className="origin-center"
               cx="50%"
               cy="60%"
               r="24"

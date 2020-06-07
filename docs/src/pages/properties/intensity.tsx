@@ -64,34 +64,18 @@ const Example = ({
           aria-label="Example of a gooey effect"
           className="w-64 h-64"
         >
-          <g
-            className="origin-center"
-            style={{ animation: 'sway 3s ease-in-out infinite alternate' }}
-          >
+          <g style={{ animation: 'sway 3s ease-in-out infinite alternate' }}>
             <circle
               cx="45%"
               cy="30%"
               r="30"
               fill="lightcoral"
-              className="origin-center"
               style={{
                 animation: 'drop 1.5s ease-in -0.75s infinite alternate',
               }}
             />
-            <circle
-              cx="65%"
-              cy="52.5%"
-              r="24"
-              fill="salmon"
-              className="origin-center"
-            />
-            <circle
-              cx="45%"
-              cy="30%"
-              r="48"
-              fill="lightsalmon"
-              className="origin-center"
-            />
+            <circle cx="65%" cy="52.5%" r="24" fill="salmon" />
+            <circle cx="45%" cy="30%" r="48" fill="lightsalmon" />
           </g>
         </svg>
       </Goo>

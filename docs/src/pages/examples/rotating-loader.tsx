@@ -19,10 +19,7 @@ export default () => (
           aria-label="Example of a gooey effect"
           className="w-64 h-64"
         >
-          <g
-            className="origin-center"
-            style={{ animation: 'rotate 5s linear infinite' }}
-          >
+          <g style={{ animation: 'rotate 5s linear infinite' }}>
             <circle cx="50%" cy="30%" r="24" fill="blueviolet" />
             <circle cx="70%" cy="50%" r="24" fill="darkorchid" />
             <circle cx="50%" cy="70%" r="24" fill="darkmagenta" />
@@ -32,7 +29,6 @@ export default () => (
               cy="30%"
               r="24"
               fill="hotpink"
-              className="origin-center"
               style={{ animation: 'rotate 2.5s linear infinite' }}
             />
             <circle
@@ -40,7 +36,6 @@ export default () => (
               cy="70%"
               r="24"
               fill="hotpink"
-              className="origin-center"
               style={{ animation: 'rotate 2.5s linear infinite' }}
             />
           </g>

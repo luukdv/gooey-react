@@ -65,3 +65,6 @@
   @apply mb-0;
 }
 
+svg * {
+  transform-origin: 50%;
+}

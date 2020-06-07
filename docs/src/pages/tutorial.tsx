@@ -255,25 +255,15 @@ export default () => (
     <div className="border-2 border-cool-gray-200 mb-8 md:mb-12">
       <Goo>
         <svg width="192" height="192">
-          <g
-            className="origin-center"
-            style={{ animation: 'rotate_back 4s linear infinite' }}
-          >
+          <g style={{ animation: 'rotate_back 4s linear infinite' }}>
             <circle
-              className="origin-center"
               style={{ animation: 'rotate 1s linear infinite' }}
               cx="37%"
               cy="37%"
               fill="orchid"
               r="32"
             />
-            <circle
-              className="origin-center"
-              cx="63%"
-              cy="63%"
-              fill="mediumorchid"
-              r="32"
-            />
+            <circle cx="63%" cy="63%" fill="mediumorchid" r="32" />
           </g>
         </svg>
       </Goo>

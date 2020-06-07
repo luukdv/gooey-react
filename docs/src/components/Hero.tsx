@@ -14,17 +14,13 @@ export default () => (
           <stop offset="1" stopColor="darkturquoise" />
         </linearGradient>
       </defs>
-      <g
-        className="origin-center"
-        style={{ animation: 'rotate 8s linear infinite' }}
-      >
+      <g style={{ animation: 'rotate 8s linear infinite' }}>
         <rect
           x={`${50 - 17.5 / 2}%`}
           y={`${50 - 17.5 / 2}%`}
           rx={`${17.5 * 0.45}%`}
           width={`${17.5}%`}
           height={`${17.5}%`}
-          className="origin-center"
           fill="url(#gradient)"
           style={{
             animation: 'hero_one 4s ease-in-out -5s infinite alternate',
@@ -36,7 +32,6 @@ export default () => (
           rx={`${20 * 0.45}%`}
           width={`${20}%`}
           height={`${20}%`}
-          className="origin-center"
           fill="url(#gradient)"
           style={{
             animation: 'hero_three 12s ease-in-out -5s infinite alternate',
@@ -48,7 +43,6 @@ export default () => (
           rx={`${25 * 0.45}%`}
           width={`${25}%`}
           height={`${25}%`}
-          className="origin-center"
           fill="url(#gradient)"
           style={{
             animation: 'hero_two 8s ease-in-out -5s infinite alternate',
@@ -60,7 +54,6 @@ export default () => (
           rx={`${30 * 0.45}%`}
           width={`${30}%`}
           height={`${30}%`}
-          className="origin-center"
           fill="url(#gradient)"
           style={{
             animation: 'hero_four 16s ease-in-out -5s infinite alternate',
