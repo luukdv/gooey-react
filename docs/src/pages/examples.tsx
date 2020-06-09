@@ -11,12 +11,12 @@ export default () => (
     next="/examples/around-the-web/"
     nextLabel="Examples: around the web"
     title="Examples"
-    description="The gooey effect might not be the most useful thing on the planet, but it can be used to create some engaging visuals."
+    description="The gooey effect might not be the most useful thing on the planet, but it can be used to create some interesting interactions and metaballs."
   >
     <H1>Examples</H1>
     <P smallMargin large>
       The gooey effect might not be the most useful thing on the planet, but it
-      can be used to create some engaging visuals.
+      can be used to create some interesting interactions and metaballs.
     </P>
     <Button href="/examples/around-the-web/" title="Around the web" />
     <Button href="/examples/dotted-loader/" title="Dotted loader" />
