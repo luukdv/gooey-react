@@ -43,6 +43,5 @@ export default () => (
       </Link>
       .
     </P>
-    <Divider />
   </>
 )
