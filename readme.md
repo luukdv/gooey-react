@@ -20,13 +20,3 @@ import Goo from 'gooey-react'
 You can put regular HTML elements inside `Goo`, but using an SVG is recommended for better browser support. Shape blobbing will be applied to everything within the component.
 
 [Visit the website](https://gooey-react.netlify.app/) for full documentation, properties and examples.
-
----
-
-<a href="https://www.youtube.com/watch?v=KK4o5OA6NYg" target="_blank">
-  <img alt="Super Mario Sunshine" src="docs/static/icky.jpeg" height="270" width="270">
-</a>
-
-> “What's this icky, paint-like goo?”
-
-*- Toad, 2002*
