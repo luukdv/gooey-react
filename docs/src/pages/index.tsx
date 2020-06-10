@@ -6,7 +6,6 @@ import H2 from '../components/H2'
 import Code from '../components/Code'
 import P from '../components/P'
 import Usage from '../components/Usage'
-import Icky from '../components/Icky'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Wrap from '../components/Wrap'
@@ -34,7 +33,6 @@ export default () => (
       </Code>
       <Divider />
       <Usage />
-      <Icky />
     </Layout>
   </>
 )
