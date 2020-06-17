@@ -261,7 +261,7 @@ export default () => (
       <span className="text-blue-700">{'}'}</span>
     </Code>
     <P smallMargin>Which will result in the following.</P>
-    <Example>
+    <Example margin>
       <Goo>
         <svg width="192" height="192">
           <g style={{ animation: 'rotate_back 4s linear infinite' }}>
@@ -275,6 +275,148 @@ export default () => (
             <circle cx="63%" cy="63%" fill="mediumorchid" r="32" />
           </g>
         </svg>
+      </Goo>
+    </Example>
+    <Divider />
+    <P smallMargin>
+      Below is a similar example using regular HTML elements, without animation.
+    </P>
+    <Code>
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-yellow-700">{'Goo'}</span>
+      <span className="text-purple-700">{' style'}</span>
+      <span className="text-blue-700">{'={{ '}</span>
+      height
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'12rem'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      position
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'relative'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      width
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'12rem'}</span>
+      <span className="text-blue-700">{"' }}>"}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-red-700">{'div '}</span>
+      <span className="text-purple-700">{'style'}</span>
+      <span className="text-blue-700">{'={{ '}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;background
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'sandybrown'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;borderRadius
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'50%'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;height
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'4rem'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      width
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'4rem'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;left
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'2.5rem'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      top
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'5.5rem'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;position
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'absolute'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'}} />'}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'<'}</span>
+      <span className="text-red-700">{'div '}</span>
+      <span className="text-purple-700">{'style'}</span>
+      <span className="text-blue-700">{'={{ '}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;background
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'palevioletred'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;borderRadius
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'50%'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;height
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'4rem'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      width
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'4rem'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;left
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'5.5rem'}</span>
+      <span className="text-blue-700">{"', "}</span>
+      top
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'2.5rem'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;position
+      <span className="text-blue-700">{": '"}</span>
+      <span className="text-green-700">{'absolute'}</span>
+      <span className="text-blue-700">{"',"}</span>
+      <br />
+      &nbsp;&nbsp;
+      <span className="text-blue-700">{'}} />'}</span>
+      <br />
+      <span className="text-blue-700">{'</'}</span>
+      <span className="text-yellow-700">{'Goo'}</span>
+      <span className="text-blue-700">{'>'}</span>
+    </Code>
+    <Example>
+      <Goo
+        style={{
+          height: '12rem',
+          position: 'relative',
+          width: '12rem',
+        }}
+      >
+        <div
+          style={{
+            background: 'sandybrown',
+            borderRadius: '50%',
+            height: '4rem',
+            left: '2.5rem',
+            position: 'absolute',
+            top: '5.5rem',
+            width: '4rem',
+          }}
+        />
+        <div
+          style={{
+            background: 'palevioletred',
+            borderRadius: '50%',
+            height: '4rem',
+            left: '5.5rem',
+            position: 'absolute',
+            top: '2.5rem',
+            width: '4rem',
+          }}
+        />
       </Goo>
     </Example>
   </Layout>
