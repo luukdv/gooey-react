@@ -5,8 +5,8 @@ import P from '../../components/P'
 
 export default () => (
   <Layout
-    prev="/properties/classname-style/"
-    prevLabel="Props: className & style"
+    prev="/tutorial/"
+    prevLabel="Tutorial"
     next="/examples/dotted-loader/"
     nextLabel="Example: dotted loader"
     title="Examples: around the web"

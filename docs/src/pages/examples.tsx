@@ -6,8 +6,8 @@ import Button from '../components/Button'
 
 export default () => (
   <Layout
-    prev="/properties/classname-style/"
-    prevLabel="Props: className & style"
+    prev="/tutorial/"
+    prevLabel="Tutorial"
     next="/examples/around-the-web/"
     nextLabel="Examples: around the web"
     title="Examples"
