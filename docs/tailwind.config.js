@@ -1,4 +1,5 @@
 const colors = require('@tailwindcss/ui/colors')
+const config = require('tailwindcss/defaultConfig')
 const theme = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -8,11 +9,10 @@ module.exports = {
         heading: ['Gooey', ...theme.fontFamily.sans],
       },
       inset: {
-        '1/2': '50%',
-        '8': '2rem',
+        8: '2rem',
       },
       spacing: {
-        '80': '20rem',
+        80: '20rem',
       },
     },
     colors,
@@ -21,13 +21,15 @@ module.exports = {
       ...theme.screens,
     },
   },
-  // https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
   variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: [...config.variants.textColor, 'group-hover'],
   },
   purge: {
     content: ['./src/**/*.tsx'],
     mode: 'all',
+  },
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
 }

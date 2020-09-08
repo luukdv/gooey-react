@@ -1,26 +1,25 @@
 {
   "private": true,
   "dependencies": {
-    "@tailwindcss/ui": "^0.5.0",
-    "gatsby": "^2.24.34",
+    "@tailwindcss/ui": "^0.6.0",
+    "gatsby": "^2.24.54",
     "gatsby-plugin-canonical-urls": "^2.3.10",
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-netlify": "^2.3.12",
+    "gatsby-plugin-netlify": "^2.3.14",
     "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-plugin-sitemap": "^2.4.12",
     "gooey-react": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "tailwindcss": "^1.6.2"
+    "tailwindcss": "^1.8.5"
   },
   "devDependencies": {
-    "@types/react-helmet": "^6.1.0",
-    "gatsby-plugin-typescript": "^2.4.17",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "gatsby-plugin-typescript": "^2.4.18",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
   },
   "scripts": {
     "build": "gatsby build",
