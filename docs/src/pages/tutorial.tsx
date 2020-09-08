@@ -13,8 +13,8 @@ export default () => (
   <Layout
     prev="/properties/classname-style/"
     prevLabel="Props: className & style"
-    next="/examples/around-the-web/"
-    nextLabel="Examples: around the web"
+    next="/examples/dotted-loader/"
+    nextLabel="Example: dotted loader"
     title="Tutorial"
     description="Let's create something simple to show how this library can be used. First, install the dependency with NPM or Yarn."
   >

@@ -48,9 +48,6 @@ export default () => (
       <A href="/examples/" title="Examples" upper smallMargin />
       <ul className="ml-4">
         <li>
-          <A href="/examples/around-the-web/" title="Around the web" />
-        </li>
-        <li>
           <A href="/examples/dotted-loader/" title="Dotted loader" />
         </li>
         <li>
@@ -58,6 +55,9 @@ export default () => (
         </li>
         <li>
           <A href="/examples/random-blob/" title="Random blob" />
+        </li>
+        <li>
+          <A href="/examples/around-the-web/" title="Around the web" />
         </li>
       </ul>
       <A href="/browser-support/" title="Browser support" upper margin />

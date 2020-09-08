@@ -5,8 +5,8 @@ import P from '../components/P'
 
 export default () => (
   <Layout
-    prev="/examples/random-blob/"
-    prevLabel="Example: random blob"
+    prev="/examples/around-the-web/"
+    prevLabel="Examples: around the web"
     next="/considerations/"
     nextLabel="Considerations"
     title="Browser support"

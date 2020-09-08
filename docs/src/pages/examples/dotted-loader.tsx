@@ -6,8 +6,8 @@ import Layout from '../../components/Layout'
 
 export default () => (
   <Layout
-    prev="/examples/around-the-web/"
-    prevLabel="Examples: around the web"
+    prev="/tutorial/"
+    prevLabel="Tutorial"
     next="/examples/rotating-loader/"
     nextLabel="Example: rotating loader"
     title="Example: dotted loader"

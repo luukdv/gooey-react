@@ -8,8 +8,8 @@ export default () => (
   <Layout
     prev="/examples/rotating-loader/"
     prevLabel="Example: rotating loader"
-    next="/browser-support/"
-    nextLabel="Browser support"
+    next="/examples/around-the-web/"
+    nextLabel="Examples: around the web"
     title="Example: random blob"
   >
     <H1>Example: random blob</H1>

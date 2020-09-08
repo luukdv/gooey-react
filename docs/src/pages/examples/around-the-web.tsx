@@ -5,10 +5,10 @@ import P from '../../components/P'
 
 export default () => (
   <Layout
-    prev="/tutorial/"
-    prevLabel="Tutorial"
-    next="/examples/dotted-loader/"
-    nextLabel="Example: dotted loader"
+    prev="/examples/random-blob/"
+    prevLabel="Example: random blob"
+    next="/browser-support/"
+    nextLabel="Browser support"
     title="Examples: around the web"
     description="A few links with some inspiring shape blobbing action."
   >
