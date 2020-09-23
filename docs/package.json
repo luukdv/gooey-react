@@ -1,4 +1,8 @@
 {
+  "browserslist": [
+    "defaults",
+    "not ie <= 11"
+  ],
   "private": true,
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",

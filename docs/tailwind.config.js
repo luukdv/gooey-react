@@ -7,7 +7,6 @@ module.exports = {
   purge: {
     content: ['./src/**/*.tsx'],
     mode: 'all',
-    options: { keyframes: true },
   },
   theme: {
     extend: {
