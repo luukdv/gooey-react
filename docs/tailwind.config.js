@@ -3,6 +3,12 @@ const config = require('tailwindcss/defaultConfig')
 const theme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  future: 'all',
+  purge: {
+    content: ['./src/**/*.tsx'],
+    mode: 'all',
+    options: { keyframes: true },
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -23,13 +29,5 @@ module.exports = {
   },
   variants: {
     textColor: [...config.variants.textColor, 'group-hover'],
-  },
-  purge: {
-    content: ['./src/**/*.tsx'],
-    mode: 'all',
-  },
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
   },
 }
