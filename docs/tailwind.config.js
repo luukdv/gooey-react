@@ -1,4 +1,4 @@
-const colors = require('@tailwindcss/ui/colors')
+const colors = require('./colors')
 const config = require('tailwindcss/defaultConfig')
 const theme = require('tailwindcss/defaultTheme')
 
