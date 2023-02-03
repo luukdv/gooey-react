@@ -30,7 +30,9 @@
     "reactjs",
     "shape",
     "svg-filter",
-    "svg-filters"
+    "svg-filters",
+    "goop",
+    "goopy"
   ],
   "main": "dist-cjs/index.js",
   "module": "dist-esm/index.js",
